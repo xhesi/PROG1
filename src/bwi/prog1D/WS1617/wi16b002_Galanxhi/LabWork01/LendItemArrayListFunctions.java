@@ -13,21 +13,51 @@ public class LendItemArrayListFunctions {
 		if(current_list_length > future_index){
 			list.lendItems[future_index] = p;
 			list.next++;
+			
+			return true;
 		}
-		else{
+		else if(list.resizable){
 			LendItem[] current = list.lendItems;
-			LendItem[] new_list = new LendItem[current.length+1];
+			LendItem[] new_list = new LendItem[current.length*2];
 			
 			new_list = copyTo(current,new_list);
-			
+			 
 			list.lendItems[future_index] = p;
 			list.next++;
+			
+			return true;
 		}
-		return true;
+		else{
+			// list should be resized but is non resizable
+			return false;
+		}
 	}
 	
 	public static LendItem remove(LendItemArrayList list, int n)
 	{
+		if( n < list.lendItems.length ){
+			LendItem removed_item = list.lendItems[n];
+			
+			LendItem[] newList = new LendItem[list.lendItems.length-1];
+			
+			int counter = 0;
+			
+			for(int i=0;i<n;i++){
+				
+				newList[counter] = list.lendItems[i];
+				counter++;
+			}
+			
+			for(int i=n+1;i<list.lendItems.length; i++){
+				
+				newList[counter] = list.lendItems[i];
+				counter++;
+			}
+			
+			// do something with newList
+			return removed_item;
+		}
+		
 		return null;
 	}
 	
