@@ -21,7 +21,7 @@ public class LendItemArrayListFunctions {
 			LendItem[] new_list = new LendItem[current.length*2];
 			
 			new_list = copyTo(current,new_list);
-			 
+			list.lendItems=new_list;
 			list.lendItems[future_index] = p;
 			list.next++;
 			
@@ -64,11 +64,17 @@ public class LendItemArrayListFunctions {
 	public static int list(LendItemArrayList list, int format)
 	{
 		TextIO.putln(LendItemFunctions.lendItemHeadings(format));
-		for (int i=0;i<list.next;i++)
+		TextIO.putln(LendItemFunctions.lendItemSeparator(format));
+		int i=0;
+		for (;i<list.next;i++)
 		{
-			TextIO.putln(LendItemFunctions.lendItemString(list.lendItems[i], format));
+			TextIO.putln(LendItemFunctions.lendItemString(list.lendItems[i], format) + "("+i +")");
 		}
-		return 0;
+		if (i==0)
+			TextIO.putln("List empty.");
+		else
+			TextIO.putln(i + " LendItem(s) in list, " + (list.lendItems.length-i) + " free.");
+		return i;
 	}
 	
 	public static void sort(LendItemArrayList list, int order)

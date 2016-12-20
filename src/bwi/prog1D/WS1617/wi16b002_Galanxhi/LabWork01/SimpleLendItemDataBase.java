@@ -11,6 +11,9 @@ public class SimpleLendItemDataBase {
 	
 	public static void populateDB()
 	{
+		LendItemArrayList list = new LendItemArrayList();
+		list.lendItems = new LendItem[list.INITIAL_SIZE];
+		list.resizable=true;
 		int nextID=1;
 		for (int i = 0; i < 25; i++) {
 			LendItem li = new LendItem();
@@ -23,9 +26,10 @@ public class SimpleLendItemDataBase {
 			li.lendDate.year = 2010 - ((int) (i * Math.PI * 100)) % 100;
 			li.lendDate.month = ((int) (i * Math.PI * 1000000)) % 12 + 1;
 			li.lendDate.day = ((int) (i * Math.PI * 100000000)) % 28 + 1;
-			LendItemArrayList list = null;
+			
 			LendItemArrayListFunctions.add(list, li);
 			}
+		LendItemArrayListFunctions.list(list, 0);
 	}
 	public static void interactiveMenu(){
 		String menuOptions = 	"1) list\n" + 
