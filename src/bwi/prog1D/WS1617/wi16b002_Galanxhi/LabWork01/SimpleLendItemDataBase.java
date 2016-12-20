@@ -28,7 +28,9 @@ public class SimpleLendItemDataBase {
 			li.lendDate.day = ((int) (i * Math.PI * 100000000)) % 28 + 1;
 			
 			LendItemArrayListFunctions.add(list, li);
+			
 			}
+		LendItemArrayListFunctions.remove(list, 3);
 		LendItemArrayListFunctions.list(list, 0);
 	}
 	public static void interactiveMenu(){

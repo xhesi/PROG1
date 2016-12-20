@@ -54,7 +54,8 @@ public class LendItemArrayListFunctions {
 				counter++;
 			}
 			
-			// do something with newList
+			list.lendItems=newList;
+			list.next--;
 			return removed_item;
 		}
 		
