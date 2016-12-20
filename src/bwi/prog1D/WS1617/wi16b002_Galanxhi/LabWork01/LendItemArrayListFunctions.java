@@ -7,6 +7,25 @@ public class LendItemArrayListFunctions {
 	
 	public static boolean add(LendItemArrayList list, LendItem p)
 	{
+<<<<<<< Updated upstream
+=======
+		int future_index = list.next;
+		int current_list_length = list.lendItems.length;
+		
+		if(current_list_length > future_index){
+			list.lendItems[future_index] = p;
+			list.next++;
+		}
+		else{
+			LendItem[] current = list.lendItems;
+			LendItem[] new_list = new LendItem[current.length+1];
+			
+			new_list = copyTo(current,new_list);
+			
+			list.lendItems[future_index] = p;
+			list.next++;
+		}
+>>>>>>> Stashed changes
 		return true;
 	}
 	
@@ -37,4 +56,15 @@ public class LendItemArrayListFunctions {
 	public static int findByID(LendItemArrayList list, int id) {
 		return 0; 
 	}
+<<<<<<< Updated upstream
+=======
+	
+	// copy the old array to a new one	
+	private static LendItem[] copyTo(LendItem[] o, LendItem[] n){
+		for(int i=0; i<o.length; i++){
+			n[i] = o[i];
+		}
+		return n;
+	}
+>>>>>>> Stashed changes
 }
