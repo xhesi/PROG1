@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet04.tests.ReadArrayPartialTest">
+        <methods>
+          <include name="testMain" invocation-numbers="0 1 2 3 4 5"/>
+        </methods>
+      </class> <!-- bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet04.tests.ReadArrayPartialTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
