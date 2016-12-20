@@ -12,10 +12,10 @@ public class SimpleLendItemDataBase {
 	public static void populateDB()
 	{
 		LendItemArrayList list = new LendItemArrayList();
-		list.lendItems = new LendItem[list.INITIAL_SIZE];
-		list.resizable=true;
+		//list.lendItems = new LendItem[list.INITIAL_SIZE];
+		list.resizeable=true;
 		int nextID=1;
-		for (int i = 0; i < 25; i++) {
+		for (int i = 0; i < 10; i++) {
 			LendItem li = new LendItem();
 			li.id = nextID++;
 			li.description = String.format("%c_description", ((int) (i
@@ -30,7 +30,7 @@ public class SimpleLendItemDataBase {
 			LendItemArrayListFunctions.add(list, li);
 			
 			}
-		LendItemArrayListFunctions.remove(list, 3);
+		LendItemArrayListFunctions.remove(list, 7);
 		LendItemArrayListFunctions.list(list, 0);
 	}
 	public static void interactiveMenu(){

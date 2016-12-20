@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/23/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>10/14/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Dec 20 21:59:46 CET 2016</td>
+<td>Started on:</td><td>Wed Dec 21 00:47:43 CET 2016</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (394 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (361 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -74,210 +74,6 @@ function toggleAllBoxes() {
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
-<tr>
-<td title='bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.add()'><b>add</b><br>Test class: bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest<br>Test method: tests if one lendItem can be added to an empty LendItemArrayList</td>
-<td><div><pre>java.lang.AssertionError: one item has been added, next should be increased expected [1] but found [0]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
-	at org.testng.Assert.assertEquals(Assert.java:116)
-	at org.testng.Assert.assertEquals(Assert.java:389)
-	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.add(LendItemArrayListFunctionsTest.java:44)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:753)
-	at org.testng.TestRunner.run(TestRunner.java:607)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
-	at org.testng.TestNG.runSuites(TestNG.java:1124)
-	at org.testng.TestNG.run(TestNG.java:1096)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1164371389", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1164371389'><pre>java.lang.AssertionError: one item has been added, next should be increased expected [1] but found [0]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
-	at org.testng.Assert.assertEquals(Assert.java:116)
-	at org.testng.Assert.assertEquals(Assert.java:389)
-	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.add(LendItemArrayListFunctionsTest.java:44)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:753)
-	at org.testng.TestRunner.run(TestRunner.java:607)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
-	at org.testng.TestNG.runSuites(TestNG.java:1124)
-	at org.testng.TestNG.run(TestNG.java:1096)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-</pre></div></td>
-<td>0</td>
-<td>bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829</td></tr>
-<tr>
-<td title='bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.addToFullNotResizable()'><b>addToFullNotResizable</b><br>Test class: bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest<br>Test method: tests if one lendItem can be added to a full not resizable LendItemArrayList</td>
-<td><div><pre>java.lang.AssertionError: 21st LendItem should NOT be added and method should return false expected [false] but found [true]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
-	at org.testng.Assert.assertEquals(Assert.java:116)
-	at org.testng.Assert.assertEquals(Assert.java:305)
-	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.addToFullNotResizable(LendItemArrayListFunctionsTest.java:69)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:753)
-	at org.testng.TestRunner.run(TestRunner.java:607)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
-	at org.testng.TestNG.runSuites(TestNG.java:1124)
-	at org.testng.TestNG.run(TestNG.java:1096)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-</pre></div><a href='#' onClick='toggleBox("stack-trace633070006", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace633070006'><pre>java.lang.AssertionError: 21st LendItem should NOT be added and method should return false expected [false] but found [true]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
-	at org.testng.Assert.assertEquals(Assert.java:116)
-	at org.testng.Assert.assertEquals(Assert.java:305)
-	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.addToFullNotResizable(LendItemArrayListFunctionsTest.java:69)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:753)
-	at org.testng.TestRunner.run(TestRunner.java:607)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
-	at org.testng.TestNG.runSuites(TestNG.java:1124)
-	at org.testng.TestNG.run(TestNG.java:1096)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-</pre></div></td>
-<td>0</td>
-<td>bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829</td></tr>
-<tr>
-<td title='bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.addToFullResizable()'><b>addToFullResizable</b><br>Test class: bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest<br>Test method: tests if one lendItem can be added to a full RESIZABLE LendItemArrayList</td>
-<td><div><pre>java.lang.AssertionError: member &quot;resizeable&quot; not found
-	at org.testng.Assert.fail(Assert.java:94)
-	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.getPrivateField(LendItemArrayListFunctionsTest.java:473)
-	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.addToFullResizable(LendItemArrayListFunctionsTest.java:78)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:753)
-	at org.testng.TestRunner.run(TestRunner.java:607)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
-	at org.testng.TestNG.runSuites(TestNG.java:1124)
-	at org.testng.TestNG.run(TestNG.java:1096)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1268066861", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1268066861'><pre>java.lang.AssertionError: member &quot;resizeable&quot; not found
-	at org.testng.Assert.fail(Assert.java:94)
-	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.getPrivateField(LendItemArrayListFunctionsTest.java:473)
-	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.addToFullResizable(LendItemArrayListFunctionsTest.java:78)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:753)
-	at org.testng.TestRunner.run(TestRunner.java:607)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
-	at org.testng.TestNG.runSuites(TestNG.java:1124)
-	at org.testng.TestNG.run(TestNG.java:1096)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-</pre></div></td>
-<td>0</td>
-<td>bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829</td></tr>
 <tr>
 <td title='bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.filterByDescription()'><b>filterByDescription</b><br>Test class: bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest<br>Test method: tests if filter by description returns the defined result<br>Parameters: _</td>
 <td><div><pre>java.lang.NullPointerException
@@ -308,8 +104,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-</pre></div><a href='#' onClick='toggleBox("stack-trace101478235", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace101478235'><pre>java.lang.NullPointerException
+</pre></div><a href='#' onClick='toggleBox("stack-trace280884709", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace280884709'><pre>java.lang.NullPointerException
 	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.getPrivateField(LendItemArrayListFunctionsTest.java:468)
 	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.filterByDescription(LendItemArrayListFunctionsTest.java:334)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -370,8 +166,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-</pre></div><a href='#' onClick='toggleBox("stack-trace836514715", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace836514715'><pre>java.lang.NullPointerException
+</pre></div><a href='#' onClick='toggleBox("stack-trace1635756693", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1635756693'><pre>java.lang.NullPointerException
 	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.getPrivateField(LendItemArrayListFunctionsTest.java:468)
 	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.filterByDescription(LendItemArrayListFunctionsTest.java:334)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -432,8 +228,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1899073220", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1899073220'><pre>java.lang.NullPointerException
+</pre></div><a href='#' onClick='toggleBox("stack-trace540585569", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace540585569'><pre>java.lang.NullPointerException
 	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.getPrivateField(LendItemArrayListFunctionsTest.java:468)
 	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.filterByDescription(LendItemArrayListFunctionsTest.java:334)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -494,8 +290,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-</pre></div><a href='#' onClick='toggleBox("stack-trace858242339", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace858242339'><pre>java.lang.NullPointerException
+</pre></div><a href='#' onClick='toggleBox("stack-trace1414521932", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1414521932'><pre>java.lang.NullPointerException
 	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.getPrivateField(LendItemArrayListFunctionsTest.java:468)
 	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.filterByDescription(LendItemArrayListFunctionsTest.java:334)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -556,8 +352,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1386767190", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1386767190'><pre>java.lang.NullPointerException
+</pre></div><a href='#' onClick='toggleBox("stack-trace555826066", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace555826066'><pre>java.lang.NullPointerException
 	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.getPrivateField(LendItemArrayListFunctionsTest.java:468)
 	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.filterByDescription(LendItemArrayListFunctionsTest.java:334)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -622,8 +418,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1401132667", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1401132667'><pre>java.lang.AssertionError: wrong index returned expected [3] but found [0]
+</pre></div><a href='#' onClick='toggleBox("stack-trace2025864991", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2025864991'><pre>java.lang.AssertionError: wrong index returned expected [3] but found [0]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:513)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
@@ -660,6 +456,76 @@ function toggleAllBoxes() {
 <td>bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829</td></tr>
 <tr>
 <td title='bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.findByID()'><b>findByID</b><br>Test class: bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest<br>Test method: test if a LendItem can be found by ID<br>Parameters: 6</td>
+<td><div><pre>java.lang.AssertionError: wrong index returned expected [-1] but found [0]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:389)
+	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.findByID(LendItemArrayListFunctionsTest.java:378)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:753)
+	at org.testng.TestRunner.run(TestRunner.java:607)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
+	at org.testng.TestNG.runSuites(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1096)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1401132667", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1401132667'><pre>java.lang.AssertionError: wrong index returned expected [-1] but found [0]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:389)
+	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.findByID(LendItemArrayListFunctionsTest.java:378)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:753)
+	at org.testng.TestRunner.run(TestRunner.java:607)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
+	at org.testng.TestNG.runSuites(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1096)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+</pre></div></td>
+<td>0</td>
+<td>bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829</td></tr>
+<tr>
+<td title='bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.findByID()'><b>findByID</b><br>Test class: bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest<br>Test method: test if a LendItem can be found by ID<br>Parameters: -15</td>
 <td><div><pre>java.lang.AssertionError: wrong index returned expected [-1] but found [0]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:513)
@@ -729,76 +595,6 @@ function toggleAllBoxes() {
 <td>0</td>
 <td>bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829</td></tr>
 <tr>
-<td title='bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.findByID()'><b>findByID</b><br>Test class: bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest<br>Test method: test if a LendItem can be found by ID<br>Parameters: -15</td>
-<td><div><pre>java.lang.AssertionError: wrong index returned expected [-1] but found [0]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
-	at org.testng.Assert.assertEquals(Assert.java:116)
-	at org.testng.Assert.assertEquals(Assert.java:389)
-	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.findByID(LendItemArrayListFunctionsTest.java:378)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:753)
-	at org.testng.TestRunner.run(TestRunner.java:607)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
-	at org.testng.TestNG.runSuites(TestNG.java:1124)
-	at org.testng.TestNG.run(TestNG.java:1096)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-</pre></div><a href='#' onClick='toggleBox("stack-trace909295153", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace909295153'><pre>java.lang.AssertionError: wrong index returned expected [-1] but found [0]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
-	at org.testng.Assert.assertEquals(Assert.java:116)
-	at org.testng.Assert.assertEquals(Assert.java:389)
-	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.findByID(LendItemArrayListFunctionsTest.java:378)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:753)
-	at org.testng.TestRunner.run(TestRunner.java:607)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
-	at org.testng.TestNG.runSuites(TestNG.java:1124)
-	at org.testng.TestNG.run(TestNG.java:1096)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-</pre></div></td>
-<td>0</td>
-<td>bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829</td></tr>
-<tr>
 <td title='bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.findByID()'><b>findByID</b><br>Test class: bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest<br>Test method: test if a LendItem can be found by ID<br>Parameters: 54</td>
 <td><div><pre>java.lang.AssertionError: wrong index returned expected [15] but found [0]
 	at org.testng.Assert.fail(Assert.java:94)
@@ -832,8 +628,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1318822808", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1318822808'><pre>java.lang.AssertionError: wrong index returned expected [15] but found [0]
+</pre></div><a href='#' onClick='toggleBox("stack-trace909295153", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace909295153'><pre>java.lang.AssertionError: wrong index returned expected [15] but found [0]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:513)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
@@ -869,224 +665,13 @@ function toggleAllBoxes() {
 <td>0</td>
 <td>bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829</td></tr>
 <tr>
-<td title='bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.remove()'><b>remove</b><br>Test class: bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest<br>Test method: test if an item can be removed by index. this test checks the last element was removed successfully(in full array); this test requires the add method is succesfull</td>
-<td><div><pre>java.lang.AssertionError: 15 elements have been added, next should be 15 expected [15] but found [0]
+<td title='bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.sort()'><b>sort</b><br>Test class: bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest<br>Test method: tests if sorting is implemented as expected, prerequisite: compare function is used!<br>Parameters: 0</td>
+<td><div><pre>java.lang.AssertionError: sorting not as expected, sorted by description expected [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@520a3426] but found [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@18eed359]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:513)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
 	at org.testng.Assert.assertEquals(Assert.java:116)
-	at org.testng.Assert.assertEquals(Assert.java:389)
-	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.remove(LendItemArrayListFunctionsTest.java:131)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:753)
-	at org.testng.TestRunner.run(TestRunner.java:607)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
-	at org.testng.TestNG.runSuites(TestNG.java:1124)
-	at org.testng.TestNG.run(TestNG.java:1096)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-</pre></div><a href='#' onClick='toggleBox("stack-trace329645619", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace329645619'><pre>java.lang.AssertionError: 15 elements have been added, next should be 15 expected [15] but found [0]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
-	at org.testng.Assert.assertEquals(Assert.java:116)
-	at org.testng.Assert.assertEquals(Assert.java:389)
-	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.remove(LendItemArrayListFunctionsTest.java:131)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:753)
-	at org.testng.TestRunner.run(TestRunner.java:607)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
-	at org.testng.TestNG.runSuites(TestNG.java:1124)
-	at org.testng.TestNG.run(TestNG.java:1096)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-</pre></div></td>
-<td>0</td>
-<td>bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829</td></tr>
-<tr>
-<td title='bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.removeFromFullList()'><b>removeFromFullList</b><br>Test class: bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest<br>Test method: test if an item can be removed by index. this test check the last existing element (not in full array); this test requires the add method is succesfull</td>
-<td><div><pre>java.lang.AssertionError: 20 elements hav been added, next should be 20 expected [20] but found [0]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
-	at org.testng.Assert.assertEquals(Assert.java:116)
-	at org.testng.Assert.assertEquals(Assert.java:389)
-	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.removeFromFullList(LendItemArrayListFunctionsTest.java:173)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:753)
-	at org.testng.TestRunner.run(TestRunner.java:607)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
-	at org.testng.TestNG.runSuites(TestNG.java:1124)
-	at org.testng.TestNG.run(TestNG.java:1096)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1604125387", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1604125387'><pre>java.lang.AssertionError: 20 elements hav been added, next should be 20 expected [20] but found [0]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
-	at org.testng.Assert.assertEquals(Assert.java:116)
-	at org.testng.Assert.assertEquals(Assert.java:389)
-	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.removeFromFullList(LendItemArrayListFunctionsTest.java:173)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:753)
-	at org.testng.TestRunner.run(TestRunner.java:607)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
-	at org.testng.TestNG.runSuites(TestNG.java:1124)
-	at org.testng.TestNG.run(TestNG.java:1096)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-</pre></div></td>
-<td>0</td>
-<td>bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829</td></tr>
-<tr>
-<td title='bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.removeNonExistingElement()'><b>removeNonExistingElement</b><br>Test class: bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest<br>Test method: test if an item can be removed by index. this test checks an unexisting element can't be removed (method returns null, no changes); this test requires the add method is succesfull</td>
-<td><div><pre>java.lang.AssertionError: 10 elements have been added, next should be 1 expected [10] but found [0]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
-	at org.testng.Assert.assertEquals(Assert.java:116)
-	at org.testng.Assert.assertEquals(Assert.java:389)
-	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.removeNonExistingElement(LendItemArrayListFunctionsTest.java:268)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:753)
-	at org.testng.TestRunner.run(TestRunner.java:607)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
-	at org.testng.TestNG.runSuites(TestNG.java:1124)
-	at org.testng.TestNG.run(TestNG.java:1096)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1376400422", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1376400422'><pre>java.lang.AssertionError: 10 elements have been added, next should be 1 expected [10] but found [0]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
-	at org.testng.Assert.assertEquals(Assert.java:116)
-	at org.testng.Assert.assertEquals(Assert.java:389)
-	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.removeNonExistingElement(LendItemArrayListFunctionsTest.java:268)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:753)
-	at org.testng.TestRunner.run(TestRunner.java:607)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
-	at org.testng.TestNG.runSuites(TestNG.java:1124)
-	at org.testng.TestNG.run(TestNG.java:1096)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-</pre></div></td>
-<td>0</td>
-<td>bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829</td></tr>
-<tr>
-<td title='bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.removeNonExistingID()'><b>removeNonExistingID</b><br>Test class: bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest<br>Test method: test if an item can be removed by index. this test checks an element with non existing id can't be removed (method returns null, no changes); this test requires the add method is succesfull</td>
-<td><div><pre>java.lang.AssertionError: 10 elements have been added, next should be 1 expected [10] but found [0]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
-	at org.testng.Assert.assertEquals(Assert.java:116)
-	at org.testng.Assert.assertEquals(Assert.java:389)
-	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.removeNonExistingID(LendItemArrayListFunctionsTest.java:297)
+	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.sort(LendItemArrayListFunctionsTest.java:442)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -1113,147 +698,12 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
 </pre></div><a href='#' onClick='toggleBox("stack-trace1815546035", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1815546035'><pre>java.lang.AssertionError: 10 elements have been added, next should be 1 expected [10] but found [0]
+<div class='stack-trace' id='stack-trace1815546035'><pre>java.lang.AssertionError: sorting not as expected, sorted by description expected [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@520a3426] but found [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@18eed359]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:513)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
 	at org.testng.Assert.assertEquals(Assert.java:116)
-	at org.testng.Assert.assertEquals(Assert.java:389)
-	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.removeNonExistingID(LendItemArrayListFunctionsTest.java:297)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:753)
-	at org.testng.TestRunner.run(TestRunner.java:607)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
-	at org.testng.TestNG.runSuites(TestNG.java:1124)
-	at org.testng.TestNG.run(TestNG.java:1096)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-</pre></div></td>
-<td>0</td>
-<td>bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829</td></tr>
-<tr>
-<td title='bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.removeSecondElement()'><b>removeSecondElement</b><br>Test class: bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest<br>Test method: test if an item can be removed by index. this test checks that the second element was removed successfully, copying all other items afterwards to an index-1; this test requires the add method is succesfull</td>
-<td><div><pre>java.lang.AssertionError: 5 elements hav been added, next should be 5 expected [5] but found [0]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
-	at org.testng.Assert.assertEquals(Assert.java:116)
-	at org.testng.Assert.assertEquals(Assert.java:389)
-	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.removeSecondElement(LendItemArrayListFunctionsTest.java:216)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:753)
-	at org.testng.TestRunner.run(TestRunner.java:607)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
-	at org.testng.TestNG.runSuites(TestNG.java:1124)
-	at org.testng.TestNG.run(TestNG.java:1096)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1735934726", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1735934726'><pre>java.lang.AssertionError: 5 elements hav been added, next should be 5 expected [5] but found [0]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
-	at org.testng.Assert.assertEquals(Assert.java:116)
-	at org.testng.Assert.assertEquals(Assert.java:389)
-	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.removeSecondElement(LendItemArrayListFunctionsTest.java:216)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:753)
-	at org.testng.TestRunner.run(TestRunner.java:607)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
-	at org.testng.TestNG.runSuites(TestNG.java:1124)
-	at org.testng.TestNG.run(TestNG.java:1096)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-</pre></div></td>
-<td>0</td>
-<td>bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829</td></tr>
-<tr>
-<td title='bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.sort()'><b>sort</b><br>Test class: bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest<br>Test method: tests if sorting is implemented as expected, prerequisite: compare function is used!<br>Parameters: 0</td>
-<td><div><pre>java.lang.AssertionError: member &quot;lendItems&quot; not found
-	at org.testng.Assert.fail(Assert.java:94)
-	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.getPrivateField(LendItemArrayListFunctionsTest.java:473)
-	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.sort(LendItemArrayListFunctionsTest.java:427)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:753)
-	at org.testng.TestRunner.run(TestRunner.java:607)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
-	at org.testng.TestNG.runSuites(TestNG.java:1124)
-	at org.testng.TestNG.run(TestNG.java:1096)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-</pre></div><a href='#' onClick='toggleBox("stack-trace250370634", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace250370634'><pre>java.lang.AssertionError: member &quot;lendItems&quot; not found
-	at org.testng.Assert.fail(Assert.java:94)
-	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.getPrivateField(LendItemArrayListFunctionsTest.java:473)
-	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.sort(LendItemArrayListFunctionsTest.java:427)
+	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.sort(LendItemArrayListFunctionsTest.java:442)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -1284,10 +734,12 @@ function toggleAllBoxes() {
 <td>bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829</td></tr>
 <tr>
 <td title='bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.sort()'><b>sort</b><br>Test class: bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest<br>Test method: tests if sorting is implemented as expected, prerequisite: compare function is used!<br>Parameters: 3</td>
-<td><div><pre>java.lang.AssertionError: member &quot;lendItems&quot; not found
+<td><div><pre>java.lang.AssertionError: sorting not as expected, sorted by lender expected [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@185d8b6] but found [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@67784306]
 	at org.testng.Assert.fail(Assert.java:94)
-	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.getPrivateField(LendItemArrayListFunctionsTest.java:473)
-	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.sort(LendItemArrayListFunctionsTest.java:427)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.sort(LendItemArrayListFunctionsTest.java:442)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -1313,11 +765,13 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1465085305", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1465085305'><pre>java.lang.AssertionError: member &quot;lendItems&quot; not found
+</pre></div><a href='#' onClick='toggleBox("stack-trace553871028", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace553871028'><pre>java.lang.AssertionError: sorting not as expected, sorted by lender expected [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@185d8b6] but found [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@67784306]
 	at org.testng.Assert.fail(Assert.java:94)
-	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.getPrivateField(LendItemArrayListFunctionsTest.java:473)
-	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.sort(LendItemArrayListFunctionsTest.java:427)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.sort(LendItemArrayListFunctionsTest.java:442)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -1348,10 +802,12 @@ function toggleAllBoxes() {
 <td>bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829</td></tr>
 <tr>
 <td title='bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.sort()'><b>sort</b><br>Test class: bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest<br>Test method: tests if sorting is implemented as expected, prerequisite: compare function is used!<br>Parameters: 4</td>
-<td><div><pre>java.lang.AssertionError: member &quot;lendItems&quot; not found
+<td><div><pre>java.lang.AssertionError: sorting not as expected, sorted by owner expected [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@2b2948e2] but found [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@6ddf90b0]
 	at org.testng.Assert.fail(Assert.java:94)
-	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.getPrivateField(LendItemArrayListFunctionsTest.java:473)
-	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.sort(LendItemArrayListFunctionsTest.java:427)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.sort(LendItemArrayListFunctionsTest.java:442)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -1377,11 +833,13 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1262822392", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1262822392'><pre>java.lang.AssertionError: member &quot;lendItems&quot; not found
+</pre></div><a href='#' onClick='toggleBox("stack-trace989938643", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace989938643'><pre>java.lang.AssertionError: sorting not as expected, sorted by owner expected [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@2b2948e2] but found [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@6ddf90b0]
 	at org.testng.Assert.fail(Assert.java:94)
-	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.getPrivateField(LendItemArrayListFunctionsTest.java:473)
-	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.sort(LendItemArrayListFunctionsTest.java:427)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.sort(LendItemArrayListFunctionsTest.java:442)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -1412,10 +870,12 @@ function toggleAllBoxes() {
 <td>bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829</td></tr>
 <tr>
 <td title='bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.sort()'><b>sort</b><br>Test class: bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest<br>Test method: tests if sorting is implemented as expected, prerequisite: compare function is used!<br>Parameters: 1</td>
-<td><div><pre>java.lang.AssertionError: member &quot;lendItems&quot; not found
+<td><div><pre>java.lang.AssertionError: sorting not as expected, sorted by lend date expected [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@4b4523f8] but found [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@731a74c]
 	at org.testng.Assert.fail(Assert.java:94)
-	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.getPrivateField(LendItemArrayListFunctionsTest.java:473)
-	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.sort(LendItemArrayListFunctionsTest.java:427)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.sort(LendItemArrayListFunctionsTest.java:442)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -1442,74 +902,12 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
 </pre></div><a href='#' onClick='toggleBox("stack-trace522764626", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace522764626'><pre>java.lang.AssertionError: member &quot;lendItems&quot; not found
+<div class='stack-trace' id='stack-trace522764626'><pre>java.lang.AssertionError: sorting not as expected, sorted by lend date expected [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@4b4523f8] but found [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@731a74c]
 	at org.testng.Assert.fail(Assert.java:94)
-	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.getPrivateField(LendItemArrayListFunctionsTest.java:473)
-	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.sort(LendItemArrayListFunctionsTest.java:427)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:753)
-	at org.testng.TestRunner.run(TestRunner.java:607)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
-	at org.testng.TestNG.runSuites(TestNG.java:1124)
-	at org.testng.TestNG.run(TestNG.java:1096)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-</pre></div></td>
-<td>0</td>
-<td>bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829</td></tr>
-<tr>
-<td title='bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.sort()'><b>sort</b><br>Test class: bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest<br>Test method: tests if sorting is implemented as expected, prerequisite: compare function is used!<br>Parameters: 2</td>
-<td><div><pre>java.lang.AssertionError: member &quot;lendItems&quot; not found
-	at org.testng.Assert.fail(Assert.java:94)
-	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.getPrivateField(LendItemArrayListFunctionsTest.java:473)
-	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.sort(LendItemArrayListFunctionsTest.java:427)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:753)
-	at org.testng.TestRunner.run(TestRunner.java:607)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
-	at org.testng.TestNG.runSuites(TestNG.java:1124)
-	at org.testng.TestNG.run(TestNG.java:1096)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-</pre></div><a href='#' onClick='toggleBox("stack-trace979294118", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace979294118'><pre>java.lang.AssertionError: member &quot;lendItems&quot; not found
-	at org.testng.Assert.fail(Assert.java:94)
-	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.getPrivateField(LendItemArrayListFunctionsTest.java:473)
-	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.sort(LendItemArrayListFunctionsTest.java:427)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.sort(LendItemArrayListFunctionsTest.java:442)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -1540,10 +938,12 @@ function toggleAllBoxes() {
 <td>bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829</td></tr>
 <tr>
 <td title='bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.sort()'><b>sort</b><br>Test class: bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest<br>Test method: tests if sorting is implemented as expected, prerequisite: compare function is used!<br>Parameters: 20</td>
-<td><div><pre>java.lang.AssertionError: member &quot;lendItems&quot; not found
+<td><div><pre>java.lang.AssertionError: sorting not as expected, sorted by description expected [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@6325a3ee] but found [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@1d16f93d]
 	at org.testng.Assert.fail(Assert.java:94)
-	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.getPrivateField(LendItemArrayListFunctionsTest.java:473)
-	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.sort(LendItemArrayListFunctionsTest.java:427)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.sort(LendItemArrayListFunctionsTest.java:442)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -1569,11 +969,13 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1740189450", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1740189450'><pre>java.lang.AssertionError: member &quot;lendItems&quot; not found
+</pre></div><a href='#' onClick='toggleBox("stack-trace731260860", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace731260860'><pre>java.lang.AssertionError: sorting not as expected, sorted by description expected [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@6325a3ee] but found [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@1d16f93d]
 	at org.testng.Assert.fail(Assert.java:94)
-	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.getPrivateField(LendItemArrayListFunctionsTest.java:473)
-	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.sort(LendItemArrayListFunctionsTest.java:427)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.sort(LendItemArrayListFunctionsTest.java:442)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -1611,7 +1013,52 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.add()'><b>add</b><br>Test class: bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest<br>Test method: tests if one lendItem can be added to an empty LendItemArrayList</td>
+<td></td>
+<td>0</td>
+<td>bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829</td></tr>
+<tr>
+<td title='bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.addToFullNotResizable()'><b>addToFullNotResizable</b><br>Test class: bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest<br>Test method: tests if one lendItem can be added to a full not resizable LendItemArrayList</td>
+<td></td>
+<td>0</td>
+<td>bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829</td></tr>
+<tr>
+<td title='bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.addToFullResizable()'><b>addToFullResizable</b><br>Test class: bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest<br>Test method: tests if one lendItem can be added to a full RESIZABLE LendItemArrayList</td>
+<td></td>
+<td>0</td>
+<td>bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829</td></tr>
+<tr>
 <td title='bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.findByID()'><b>findByID</b><br>Test class: bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest<br>Test method: test if a LendItem can be found by ID<br>Parameters: 9</td>
+<td></td>
+<td>0</td>
+<td>bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829</td></tr>
+<tr>
+<td title='bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.remove()'><b>remove</b><br>Test class: bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest<br>Test method: test if an item can be removed by index. this test checks the last element was removed successfully(in full array); this test requires the add method is succesfull</td>
+<td></td>
+<td>0</td>
+<td>bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829</td></tr>
+<tr>
+<td title='bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.removeFromFullList()'><b>removeFromFullList</b><br>Test class: bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest<br>Test method: test if an item can be removed by index. this test check the last existing element (not in full array); this test requires the add method is succesfull</td>
+<td></td>
+<td>0</td>
+<td>bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829</td></tr>
+<tr>
+<td title='bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.removeNonExistingElement()'><b>removeNonExistingElement</b><br>Test class: bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest<br>Test method: test if an item can be removed by index. this test checks an unexisting element can't be removed (method returns null, no changes); this test requires the add method is succesfull</td>
+<td></td>
+<td>0</td>
+<td>bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829</td></tr>
+<tr>
+<td title='bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.removeNonExistingID()'><b>removeNonExistingID</b><br>Test class: bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest<br>Test method: test if an item can be removed by index. this test checks an element with non existing id can't be removed (method returns null, no changes); this test requires the add method is succesfull</td>
+<td></td>
+<td>0</td>
+<td>bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829</td></tr>
+<tr>
+<td title='bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.removeSecondElement()'><b>removeSecondElement</b><br>Test class: bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest<br>Test method: test if an item can be removed by index. this test checks that the second element was removed successfully, copying all other items afterwards to an index-1; this test requires the add method is succesfull</td>
+<td></td>
+<td>0</td>
+<td>bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829</td></tr>
+<tr>
+<td title='bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.sort()'><b>sort</b><br>Test class: bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest<br>Test method: tests if sorting is implemented as expected, prerequisite: compare function is used!<br>Parameters: 2</td>
 <td></td>
 <td>0</td>
 <td>bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829</td></tr>

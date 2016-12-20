@@ -3,7 +3,13 @@ import java.util.ArrayList;
 
 public class LendItemArrayList {
 	int INITIAL_SIZE = 20;
-	boolean resizable = false;
+	boolean resizeable;
 	LendItem[] lendItems;
 	int next = 0;
+	public LendItemArrayList()
+	{
+		resizeable = false;
+		lendItems = new LendItem[INITIAL_SIZE];
+	}
+
 }

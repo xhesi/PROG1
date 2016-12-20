@@ -16,7 +16,7 @@ public class LendItemArrayListFunctions {
 			
 			return true;
 		}
-		else if(list.resizable){
+		else if(list.resizeable){
 			LendItem[] current = list.lendItems;
 			LendItem[] new_list = new LendItem[current.length*2];
 			
@@ -35,7 +35,7 @@ public class LendItemArrayListFunctions {
 	
 	public static LendItem remove(LendItemArrayList list, int n)
 	{
-		if( n < list.lendItems.length ){
+		if( n < list.next ){
 			LendItem removed_item = list.lendItems[n];
 			
 			LendItem[] newList = new LendItem[list.lendItems.length-1];
