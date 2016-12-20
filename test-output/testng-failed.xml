@@ -3,27 +3,22 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest">
+      <class name="bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest">
         <methods>
-          <include name="compareByLendDate" invocation-numbers="0 1 2 3 4 5"/>
-          <include name="compareDateDate" invocation-numbers="0 1 2 3 4 5"/>
-          <include name="compareLendItemLendItemint" invocation-numbers="0 1 2 3 4 5 6 7 8 9 10 11 12"/>
-          <include name="compareByDescription" invocation-numbers="0 1 2 3"/>
-          <include name="compareByReturnDate" invocation-numbers="0 1 2 3 4 5"/>
-          <include name="isOut"/>
-          <include name="compareDateDateNull"/>
+          <include name="removeFromFullList"/>
+          <include name="removeSecondElement"/>
+          <include name="add"/>
+          <include name="filterByDescription" invocation-numbers="0 1 2 3 4"/>
+          <include name="addToFullNotResizable"/>
+          <include name="findByID" invocation-numbers="1 2 3 4"/>
+          <include name="removeNonExistingID"/>
           <include name="init"/>
-          <include name="scanLendItem" invocation-numbers="0 1 2"/>
-          <include name="equalsDateDateNullValues"/>
-          <include name="compareByLender" invocation-numbers="0 1 2 3"/>
-          <include name="lendItemString" invocation-numbers="0 1 2 3 4 5"/>
-          <include name="scanDate" invocation-numbers="0 1 2 3"/>
-          <include name="compareByOwner" invocation-numbers="0 1 2 3"/>
-          <include name="equalsLendItemLendItemNullValues"/>
-          <include name="equalsDateDate" invocation-numbers="0 1 2 3"/>
-          <include name="equalsLendItemLendItem" invocation-numbers="0 1 2 3 4 5"/>
+          <include name="addToFullResizable"/>
+          <include name="remove"/>
+          <include name="sort" invocation-numbers="0 1 2 3 4 5"/>
+          <include name="removeNonExistingElement"/>
         </methods>
-      </class> <!-- bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest -->
+      </class> <!-- bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

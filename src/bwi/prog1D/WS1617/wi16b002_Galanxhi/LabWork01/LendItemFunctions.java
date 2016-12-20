@@ -12,7 +12,7 @@ public class LendItemFunctions {
 		switch (format)
 		{
 		case 1:
-			return String.format("%-15.15s %-10.10s %s %s %-10.10s", it.description,it.lender, dateString(it.lendDate), dateString(it.returnDate), it.owner);
+			return String.format("%-3.3d %-15.15s %-10.10s %s %s %-10.10s", it.id, it.description,it.lender, dateString(it.lendDate), dateString(it.returnDate), it.owner);
 		case 2:
 			return String.format("%-15.15s %-10.10s", it.description, it.lender);
 		default:
@@ -244,12 +244,21 @@ public class LendItemFunctions {
 	 
 	 public static String lendItemHeadings(int format)
 	 {
-		 return null;
+		 switch (format)
+		{
+		case 1:
+			return "ID description lender lend date return date owner";
+		case 2:
+			return "description lender";
+		default:
+			return "description lender lend date return date owner";	
+		}
+		 
 	 }
 	 
 	 public static String lendItemSeparator(int format)
 	 {
-		 return null;
+		 return "------------------------------------------------------------------";
 	 }
 	 
 }

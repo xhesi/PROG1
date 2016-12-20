@@ -4,10 +4,11 @@ import bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.*;
 public class SimpleLendItemDataBase {
 	public static void main(String[] args){
 		//interactiveMenu();
-		
+		TextIO.putln(LendItemFunctions.lendItemSeparator(0));
+		populateDB();
 	}
 	
-	/*
+	
 	public static void populateDB()
 	{
 		int nextID=1;
@@ -72,5 +73,5 @@ public class SimpleLendItemDataBase {
 		}
 	}
 	
-	*/
+	
 }

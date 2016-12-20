@@ -1,5 +1,7 @@
 package bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01;
 
+import bwi.prog.utils.TextIO;
+
 public class LendItemArrayListFunctions {
 
 	
@@ -15,6 +17,11 @@ public class LendItemArrayListFunctions {
 	
 	public static int list(LendItemArrayList list, int format)
 	{
+		TextIO.putln(LendItemFunctions.lendItemHeadings(format));
+		for (int i=0;i<list.next;i++)
+		{
+			TextIO.putln(LendItemFunctions.lendItemString(list.landItems[i], format));
+		}
 		return 0;
 	}
 	
