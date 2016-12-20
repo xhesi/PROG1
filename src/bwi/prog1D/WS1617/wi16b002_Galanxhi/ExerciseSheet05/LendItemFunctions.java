@@ -1,8 +1,8 @@
-package bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01;
+package bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05;
 
 import bwi.prog.utils.TextIO;
-import bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.Date;
-import bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem;
+import bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.Date;
+import bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.LendItem;
 
 public class LendItemFunctions {
 
