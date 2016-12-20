@@ -7,8 +7,6 @@ public class LendItemArrayListFunctions {
 	
 	public static boolean add(LendItemArrayList list, LendItem p)
 	{
-<<<<<<< Updated upstream
-=======
 		int future_index = list.next;
 		int current_list_length = list.lendItems.length;
 		
@@ -25,7 +23,6 @@ public class LendItemArrayListFunctions {
 			list.lendItems[future_index] = p;
 			list.next++;
 		}
->>>>>>> Stashed changes
 		return true;
 	}
 	
@@ -39,7 +36,7 @@ public class LendItemArrayListFunctions {
 		TextIO.putln(LendItemFunctions.lendItemHeadings(format));
 		for (int i=0;i<list.next;i++)
 		{
-			TextIO.putln(LendItemFunctions.lendItemString(list.landItems[i], format));
+			TextIO.putln(LendItemFunctions.lendItemString(list.lendItems[i], format));
 		}
 		return 0;
 	}
@@ -56,8 +53,6 @@ public class LendItemArrayListFunctions {
 	public static int findByID(LendItemArrayList list, int id) {
 		return 0; 
 	}
-<<<<<<< Updated upstream
-=======
 	
 	// copy the old array to a new one	
 	private static LendItem[] copyTo(LendItem[] o, LendItem[] n){
@@ -66,5 +61,4 @@ public class LendItemArrayListFunctions {
 		}
 		return n;
 	}
->>>>>>> Stashed changes
 }
