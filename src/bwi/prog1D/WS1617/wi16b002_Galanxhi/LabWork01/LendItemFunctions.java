@@ -23,6 +23,8 @@ public class LendItemFunctions {
 	
 	private static String dateString(Date d)
 	{
+		if (d == null)
+			return "<not set>";
 		return String.format("%04d.%02d.%02d", d.year, d.month, d.day);
 	}
 
@@ -239,4 +241,15 @@ public class LendItemFunctions {
 	 {
 		 return (li.returnDate == null);
 	 }
+	 
+	 public static String lendItemHeadings(int format)
+	 {
+		 return null;
+	 }
+	 
+	 public static String lendItemSeparator(int format)
+	 {
+		 return null;
+	 }
+	 
 }
