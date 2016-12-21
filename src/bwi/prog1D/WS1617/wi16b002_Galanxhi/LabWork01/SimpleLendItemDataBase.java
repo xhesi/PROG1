@@ -62,6 +62,14 @@ public class SimpleLendItemDataBase {
 				 LendItemArrayListFunctions.list(list, 1);
 				 break;
 			 case 2:
+				 LendItem item = LendItemFunctions.scanLendItem();
+				 if(LendItemArrayListFunctions.add(list, item)){
+					 TextIO.put("1 item added");
+				 }
+				 else{
+					 
+				 }
+				 
 				 break;
 			 case 3:
 				 break;
