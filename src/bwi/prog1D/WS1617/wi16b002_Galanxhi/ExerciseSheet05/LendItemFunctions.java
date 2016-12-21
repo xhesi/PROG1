@@ -9,6 +9,8 @@ public class LendItemFunctions {
 	
 	public static String lendItemString(LendItem it, int format)
 	{
+		return "abc";
+		/*
 		switch (format)
 		{
 		case 1:
@@ -18,16 +20,22 @@ public class LendItemFunctions {
 		default:
 			return String.format("\"%s\",\"%s\",\"%s\",\"%s\",\"%s\"", it.description,it.lender, dateString(it.lendDate), dateString(it.returnDate), it.owner);
 		}
+		*/
 	}
 	
 	
 	private static String dateString(Date d)
 	{
+		return "abc";
+		/*
 		return String.format("%04d.%02d.%02d", d.year, d.month, d.day);
+		 */
 	}
 
 	public static int compare(LendItem it1, LendItem it2, int method)
 	{
+		return 1;
+		/*
 		switch (method) {
 			case 1:
 				return compareByLendDate(it1, it2);
@@ -40,10 +48,13 @@ public class LendItemFunctions {
 			default:
 				return compareByDescription(it1, it2);
 		}
+		*/
 	}
 
 	public static int compareByLendDate(LendItem it1, LendItem it2)
 	{
+		return 1;
+		/*
 		//null comparison
 		if (it1 == null && it2 == null)
 			return 0;
@@ -54,10 +65,13 @@ public class LendItemFunctions {
 		//end null comparison
 		
 		return compare(it1.lendDate, it2.lendDate);
+		*/
 	 }
 	
 	 public static int compareByReturnDate(LendItem it1, LendItem it2)
 	 {
+		 return 1;
+			/*
 		//null comparison
 		if (it1 == null && it2 == null)
 			return 0;
@@ -68,11 +82,13 @@ public class LendItemFunctions {
 		//end null comparison
 		
 		return compare(it1.returnDate, it2.returnDate);
-		 
+		 */
 	 }
 	 
 	 public static int compareByDescription(LendItem it1, LendItem it2)
 	 {
+		 return 1;
+			/*
 		//null comparison
 		if (it1 == null && it2 == null)
 			return 0;
@@ -86,10 +102,13 @@ public class LendItemFunctions {
 		if (tmp>0) return 1;
 		else if (tmp<0) return -1;
 		return 0;
+		*/
 	 }
 	 
 	 public static int compare(Date d1, Date d2)
 	 {
+		 return 1;
+			/*
 		//null comparison
 			if (d1 == null && d2 == null)
 				return 0;
@@ -107,10 +126,13 @@ public class LendItemFunctions {
 			 return 1;
 		 else
 			 return 0;
+			 */
 	 }
 	 
 	 public static int compareByLender(LendItem it1, LendItem it2)
 	 {
+		 return 1;
+			/*
 		//null comparison
 		if (it1 == null && it2 == null)
 			return 0;
@@ -125,10 +147,13 @@ public class LendItemFunctions {
 		if (tmp>0) return 1;
 		else if (tmp<0) return -1;
 		return 0;
+		*/
 	 }
 	 
 	 public static int compareByOwner(LendItem it1, LendItem it2)
 	 {
+		 return 1;
+			/*
 		//null comparison
 		if (it1 == null && it2 == null)
 			return 0;
@@ -143,10 +168,13 @@ public class LendItemFunctions {
 		if (tmp>0) return 1;
 		else if (tmp<0) return -1;
 		return 0;
+		*/
 	 }
 	 
 	 public static boolean equals(LendItem it1, LendItem it2)
 	 {
+		 return true;
+			/*
 		if (it1 == null && it2 == null)
 			return true;
 		if (it1 == null || it2 ==null)
@@ -154,10 +182,13 @@ public class LendItemFunctions {
 		if (it1.description.equals(it2.description) && it1.lender.equals(it2.lender) && it1.owner.equals(it2.owner) && equals(it1.lendDate, it2.lendDate) && equals(it1.returnDate, it2.returnDate))
 			return true;
 		return false;
+		*/
 	 }
 	 
 	 public static boolean equals(Date d1, Date d2)
 	 {
+		 return true;
+			/*
 		 if (d1 == null && d2 == null)
 			return true;
 		 if (d1 == null || d2 ==null)
@@ -165,11 +196,14 @@ public class LendItemFunctions {
 		 if (d1.day == d2.day && d1.month == d2.month && d1.year == d2.year)
 			return true;
 		 return false;
+		 */
 
 	 }
 	 
 	 public static LendItem scanLendItem()
 	 {
+		 return null;
+			/*
 	 String desc = "", lender = "", owner = "";
 		do {
 			TextIO.putf("description: ");
@@ -201,10 +235,13 @@ public class LendItemFunctions {
 		it.returnDate = scanDate();
 
 		return it;
+		*/
 	 }
 	 
 	 public static Date scanDate()
 	 {
+		 return null;
+		 /*
 	 int y, m, d;
 		do {
 			TextIO.put("year: ");
@@ -234,9 +271,13 @@ public class LendItemFunctions {
 		dat.month = m;
 		dat.year = y;
 		return dat;
+		*/
 	 }
 	 public static boolean isOut(LendItem li)
 	 {
+		 return false;
+		 /*
 		 return (li.returnDate == null);
+		 */
 	 }
 }

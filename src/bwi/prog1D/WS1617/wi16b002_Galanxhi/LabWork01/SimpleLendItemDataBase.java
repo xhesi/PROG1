@@ -1,8 +1,5 @@
 package bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01;
-import javax.xml.soap.Text;
-
 import bwi.prog.utils.TextIO;
-import bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.*;
 public class SimpleLendItemDataBase {
 	public static void main(String[] args){
 		
@@ -51,6 +48,7 @@ public class SimpleLendItemDataBase {
 		menuloop: while (true)
 		{
 			 TextIO.put(menuOptions);
+			 TextIO.put("Enter option: ");
 			 try {
 				 inputOption=TextIO.getlnInt();
 			 }
