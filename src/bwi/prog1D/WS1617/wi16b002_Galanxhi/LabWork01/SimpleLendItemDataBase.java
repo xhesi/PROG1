@@ -88,7 +88,7 @@ public class SimpleLendItemDataBase {
 					 TextIO.putln("LendItem not found (ID "+id+")");
 				 break;
 			 case 4:
-				 String[] sortOptions = {"lend date", "return date", "lender", "owner", "description"}
+				 String[] sortOptions = {"lend date", "return date", "lender", "owner", "description"};
 				 for(int i =1; i<sortOptions.length;i++){
 					 TextIO.put(i%sortOptions.length+") by "+sortOptions[i-1]);
 				 }
@@ -108,10 +108,10 @@ public class SimpleLendItemDataBase {
 			 case 5:
 				 TextIO.put("enter description: ");
 				 String searchDescription = TextIO.getlnWord();
-				 TextIO.put("displaying matches: ");
+				 TextIO.put("displaying matches: \n");
 				 
 				 LendItemArrayList searchedByDescription = LendItemArrayListFunctions.filterByDescription(list, searchDescription);
-				 LendItemArrayListFunctions.list(searchedByDescription, 1);
+				 LendItemArrayListFunctions.list(searchedByDescription, format);
 				 
 				 break;
 			 case 6:
