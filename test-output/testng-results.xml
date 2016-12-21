@@ -1,449 +1,922 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="5" total="24" passed="19">
+<testng-results skipped="0" failed="0" total="70" passed="70">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="295" started-at="2016-12-21T00:02:51Z" finished-at="2016-12-21T00:02:51Z">
+  <suite name="Default suite" duration-ms="451" started-at="2016-12-21T00:11:42Z" finished-at="2016-12-21T00:11:42Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="295" started-at="2016-12-21T00:02:51Z" finished-at="2016-12-21T00:02:51Z">
-      <class name="bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest">
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="11" started-at="2016-12-21T01:02:51Z" finished-at="2016-12-21T01:02:51Z">
+    <test name="Default test" duration-ms="451" started-at="2016-12-21T00:11:42Z" finished-at="2016-12-21T00:11:42Z">
+      <class name="bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="11" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="add()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="add" duration-ms="15" started-at="2016-12-21T01:02:51Z" description="tests if one lendItem can be added to an empty LendItemArrayList" finished-at="2016-12-21T01:02:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- add -->
-        <test-method status="PASS" signature="addToFullNotResizable()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="addToFullNotResizable" duration-ms="3" started-at="2016-12-21T01:02:51Z" description="tests if one lendItem can be added to a full not resizable LendItemArrayList" finished-at="2016-12-21T01:02:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToFullNotResizable -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:02:51Z" finished-at="2016-12-21T01:02:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:02:51Z" finished-at="2016-12-21T01:02:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="addToFullResizable()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="addToFullResizable" duration-ms="3" started-at="2016-12-21T01:02:51Z" description="tests if one lendItem can be added to a full RESIZABLE LendItemArrayList" finished-at="2016-12-21T01:02:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToFullResizable -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T01:02:51Z" finished-at="2016-12-21T01:02:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="filterByDescription(java.lang.String)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="filterByDescription" duration-ms="15" started-at="2016-12-21T01:02:51Z" description="tests if filter by description returns the defined result" data-provider="filterDesc" finished-at="2016-12-21T01:02:51Z">
+        <test-method status="PASS" signature="compareByDescription(java.lang.String, java.lang.String, int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="compareByDescription" duration-ms="17" started-at="2016-12-21T01:11:42Z" data-provider="compStrings" finished-at="2016-12-21T01:11:42Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[_]]>
+                <![CDATA[Alpha Beta]]>
               </value>
             </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- filterByDescription -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T01:02:51Z" finished-at="2016-12-21T01:02:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="filterByDescription(java.lang.String)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="filterByDescription" duration-ms="9" started-at="2016-12-21T01:02:51Z" description="tests if filter by description returns the defined result" data-provider="filterDesc" finished-at="2016-12-21T01:02:51Z">
-          <params>
-            <param index="0">
+            <param index="1">
               <value>
-                <![CDATA[A_]]>
+                <![CDATA[Alpha Beta]]>
               </value>
             </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- filterByDescription -->
-        <test-method status="PASS" signature="filterByDescription(java.lang.String)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="filterByDescription" duration-ms="8" started-at="2016-12-21T01:02:51Z" description="tests if filter by description returns the defined result" data-provider="filterDesc" finished-at="2016-12-21T01:02:51Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[C]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- filterByDescription -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:02:51Z" finished-at="2016-12-21T01:02:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="filterByDescription(java.lang.String)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="filterByDescription" duration-ms="10" started-at="2016-12-21T01:02:51Z" description="tests if filter by description returns the defined result" data-provider="filterDesc" finished-at="2016-12-21T01:02:51Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[F]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- filterByDescription -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:02:51Z" finished-at="2016-12-21T01:02:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T01:02:51Z" finished-at="2016-12-21T01:02:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="filterByDescription(java.lang.String)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="filterByDescription" duration-ms="11" started-at="2016-12-21T01:02:51Z" description="tests if filter by description returns the defined result" data-provider="filterDesc" finished-at="2016-12-21T01:02:51Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[X]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- filterByDescription -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T01:02:51Z" finished-at="2016-12-21T01:02:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="findByID(int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="findByID" duration-ms="8" started-at="2016-12-21T01:02:51Z" description="test if a LendItem can be found by ID" data-provider="id" finished-at="2016-12-21T01:02:51Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[9]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- findByID -->
-        <test-method status="PASS" signature="findByID(int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="findByID" duration-ms="8" started-at="2016-12-21T01:02:51Z" description="test if a LendItem can be found by ID" data-provider="id" finished-at="2016-12-21T01:02:51Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[18]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- findByID -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:02:51Z" finished-at="2016-12-21T01:02:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T01:02:51Z" finished-at="2016-12-21T01:02:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="findByID(int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="findByID" duration-ms="5" started-at="2016-12-21T01:02:51Z" description="test if a LendItem can be found by ID" data-provider="id" finished-at="2016-12-21T01:02:51Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[6]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- findByID -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T01:02:51Z" finished-at="2016-12-21T01:02:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="findByID(int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="findByID" duration-ms="4" started-at="2016-12-21T01:02:51Z" description="test if a LendItem can be found by ID" data-provider="id" finished-at="2016-12-21T01:02:51Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[-15]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- findByID -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:02:51Z" finished-at="2016-12-21T01:02:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="findByID(int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="findByID" duration-ms="5" started-at="2016-12-21T01:02:51Z" description="test if a LendItem can be found by ID" data-provider="id" finished-at="2016-12-21T01:02:51Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[54]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- findByID -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:02:51Z" finished-at="2016-12-21T01:02:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="remove()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="remove" duration-ms="5" started-at="2016-12-21T01:02:51Z" description="test if an item can be removed by index. this test checks the last element was removed successfully(in full array); this test requires the add method is succesfull" finished-at="2016-12-21T01:02:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- remove -->
-        <test-method status="PASS" signature="removeFromFullList()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="removeFromFullList" duration-ms="4" started-at="2016-12-21T01:02:51Z" description="test if an item can be removed by index. this test check the last existing element (not in full array); this test requires the add method is succesfull" finished-at="2016-12-21T01:02:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- removeFromFullList -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:02:51Z" finished-at="2016-12-21T01:02:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T01:02:51Z" finished-at="2016-12-21T01:02:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="removeNonExistingElement()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="removeNonExistingElement" duration-ms="4" started-at="2016-12-21T01:02:51Z" description="test if an item can be removed by index. this test checks an unexisting element can&#039;t be removed (method returns null, no changes); this test requires the add method is succesfull" finished-at="2016-12-21T01:02:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- removeNonExistingElement -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:02:51Z" finished-at="2016-12-21T01:02:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="removeNonExistingID()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="removeNonExistingID" duration-ms="2" started-at="2016-12-21T01:02:51Z" description="test if an item can be removed by index. this test checks an element with non existing id can&#039;t be removed (method returns null, no changes); this test requires the add method is succesfull" finished-at="2016-12-21T01:02:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- removeNonExistingID -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:02:51Z" finished-at="2016-12-21T01:02:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="removeSecondElement()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="removeSecondElement" duration-ms="4" started-at="2016-12-21T01:02:51Z" description="test if an item can be removed by index. this test checks that the second element was removed successfully, copying all other items afterwards to an index-1; this test requires the add method is succesfull" finished-at="2016-12-21T01:02:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- removeSecondElement -->
-        <test-method status="FAIL" signature="sort(int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="sort" duration-ms="6" started-at="2016-12-21T01:02:51Z" description="tests if sorting is implemented as expected, prerequisite: compare function is used!" data-provider="sortingOrder" finished-at="2016-12-21T01:02:51Z">
-          <params>
-            <param index="0">
+            <param index="2">
               <value>
                 <![CDATA[0]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[sorting not as expected, sorted by description expected [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@2286778] but found [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@4e9ba398]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: sorting not as expected, sorted by description expected [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@2286778] but found [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@4e9ba398]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
-	at org.testng.Assert.assertEquals(Assert.java:116)
-	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.sort(LendItemArrayListFunctionsTest.java:442)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:753)
-	at org.testng.TestRunner.run(TestRunner.java:607)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
-	at org.testng.TestNG.runSuites(TestNG.java:1124)
-	at org.testng.TestNG.run(TestNG.java:1096)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sort -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:02:51Z" finished-at="2016-12-21T01:02:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:02:51Z" finished-at="2016-12-21T01:02:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="FAIL" signature="sort(int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="sort" duration-ms="5" started-at="2016-12-21T01:02:51Z" description="tests if sorting is implemented as expected, prerequisite: compare function is used!" data-provider="sortingOrder" finished-at="2016-12-21T01:02:51Z">
+        </test-method> <!-- compareByDescription -->
+        <test-method status="PASS" signature="compareByDescription(java.lang.String, java.lang.String, int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="compareByDescription" duration-ms="3" started-at="2016-12-21T01:11:42Z" data-provider="compStrings" finished-at="2016-12-21T01:11:42Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[3]]>
+                <![CDATA[Alpha Beta]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gamma Delta]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-1]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[sorting not as expected, sorted by lender expected [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@5f9d02cb] but found [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@63753b6d]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: sorting not as expected, sorted by lender expected [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@5f9d02cb] but found [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@63753b6d]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
-	at org.testng.Assert.assertEquals(Assert.java:116)
-	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.sort(LendItemArrayListFunctionsTest.java:442)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:753)
-	at org.testng.TestRunner.run(TestRunner.java:607)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
-	at org.testng.TestNG.runSuites(TestNG.java:1124)
-	at org.testng.TestNG.run(TestNG.java:1096)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sort -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T01:02:51Z" finished-at="2016-12-21T01:02:51Z">
+        </test-method> <!-- compareByDescription -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="FAIL" signature="sort(int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="sort" duration-ms="3" started-at="2016-12-21T01:02:51Z" description="tests if sorting is implemented as expected, prerequisite: compare function is used!" data-provider="sortingOrder" finished-at="2016-12-21T01:02:51Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="compareByDescription(java.lang.String, java.lang.String, int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="compareByDescription" duration-ms="4" started-at="2016-12-21T01:11:42Z" data-provider="compStrings" finished-at="2016-12-21T01:11:42Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[4]]>
+                <![CDATA[Gamma Delta]]>
               </value>
             </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[sorting not as expected, sorted by owner expected [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@18eed359] but found [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@3e9b1010]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: sorting not as expected, sorted by owner expected [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@18eed359] but found [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@3e9b1010]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
-	at org.testng.Assert.assertEquals(Assert.java:116)
-	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.sort(LendItemArrayListFunctionsTest.java:442)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:753)
-	at org.testng.TestRunner.run(TestRunner.java:607)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
-	at org.testng.TestNG.runSuites(TestNG.java:1124)
-	at org.testng.TestNG.run(TestNG.java:1096)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sort -->
-        <test-method status="FAIL" signature="sort(int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="sort" duration-ms="5" started-at="2016-12-21T01:02:51Z" description="tests if sorting is implemented as expected, prerequisite: compare function is used!" data-provider="sortingOrder" finished-at="2016-12-21T01:02:51Z">
-          <params>
-            <param index="0">
+            <param index="1">
+              <value>
+                <![CDATA[Alpha Beta]]>
+              </value>
+            </param>
+            <param index="2">
               <value>
                 <![CDATA[1]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[sorting not as expected, sorted by lend date expected [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@67784306] but found [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@335eadca]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: sorting not as expected, sorted by lend date expected [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@67784306] but found [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@335eadca]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
-	at org.testng.Assert.assertEquals(Assert.java:116)
-	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.sort(LendItemArrayListFunctionsTest.java:442)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:753)
-	at org.testng.TestRunner.run(TestRunner.java:607)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
-	at org.testng.TestNG.runSuites(TestNG.java:1124)
-	at org.testng.TestNG.run(TestNG.java:1096)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sort -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:02:51Z" finished-at="2016-12-21T01:02:51Z">
+        </test-method> <!-- compareByDescription -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T01:02:51Z" finished-at="2016-12-21T01:02:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="sort(int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="sort" duration-ms="5" started-at="2016-12-21T01:02:51Z" description="tests if sorting is implemented as expected, prerequisite: compare function is used!" data-provider="sortingOrder" finished-at="2016-12-21T01:02:51Z">
+        <test-method status="PASS" signature="compareByDescription(java.lang.String, java.lang.String, int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="compareByDescription" duration-ms="4" started-at="2016-12-21T01:11:42Z" data-provider="compStrings" finished-at="2016-12-21T01:11:42Z">
           <params>
             <param index="0">
+              <value>
+                <![CDATA[alpha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Alpha]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareByDescription -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="compareByLendDate([I, [I, int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="compareByLendDate" duration-ms="5" started-at="2016-12-21T01:11:42Z" data-provider="compYears" finished-at="2016-12-21T01:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@2d6eabae]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[I@4e7dc304]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareByLendDate -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="compareByLendDate([I, [I, int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="compareByLendDate" duration-ms="4" started-at="2016-12-21T01:11:42Z" data-provider="compYears" finished-at="2016-12-21T01:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@64729b1e]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[I@10bbd20a]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareByLendDate -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="compareByLendDate([I, [I, int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="compareByLendDate" duration-ms="4" started-at="2016-12-21T01:11:42Z" data-provider="compYears" finished-at="2016-12-21T01:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@48503868]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[I@6895a785]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareByLendDate -->
+        <test-method status="PASS" signature="compareByLendDate([I, [I, int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="compareByLendDate" duration-ms="3" started-at="2016-12-21T01:11:42Z" data-provider="compYears" finished-at="2016-12-21T01:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@184f6be2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[I@56aac163]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareByLendDate -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="compareByLendDate([I, [I, int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="compareByLendDate" duration-ms="4" started-at="2016-12-21T01:11:42Z" data-provider="compYears" finished-at="2016-12-21T01:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@1f7030a6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[I@5a1c0542]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareByLendDate -->
+        <test-method status="PASS" signature="compareByLendDate([I, [I, int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="compareByLendDate" duration-ms="3" started-at="2016-12-21T01:11:42Z" data-provider="compYears" finished-at="2016-12-21T01:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@396f6598]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[I@394e1a0f]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareByLendDate -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="compareByLender(java.lang.String, java.lang.String, int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="compareByLender" duration-ms="2" started-at="2016-12-21T01:11:42Z" data-provider="compStrings" finished-at="2016-12-21T01:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alpha Beta]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Alpha Beta]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareByLender -->
+        <test-method status="PASS" signature="compareByLender(java.lang.String, java.lang.String, int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="compareByLender" duration-ms="2" started-at="2016-12-21T01:11:42Z" data-provider="compStrings" finished-at="2016-12-21T01:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alpha Beta]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gamma Delta]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareByLender -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="compareByLender(java.lang.String, java.lang.String, int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="compareByLender" duration-ms="2" started-at="2016-12-21T01:11:42Z" data-provider="compStrings" finished-at="2016-12-21T01:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gamma Delta]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Alpha Beta]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareByLender -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="compareByLender(java.lang.String, java.lang.String, int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="compareByLender" duration-ms="2" started-at="2016-12-21T01:11:42Z" data-provider="compStrings" finished-at="2016-12-21T01:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[alpha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Alpha]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareByLender -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="compareByOwner(java.lang.String, java.lang.String, int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="compareByOwner" duration-ms="2" started-at="2016-12-21T01:11:42Z" data-provider="compStrings" finished-at="2016-12-21T01:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alpha Beta]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Alpha Beta]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareByOwner -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="2" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="compareByOwner(java.lang.String, java.lang.String, int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="compareByOwner" duration-ms="1" started-at="2016-12-21T01:11:42Z" data-provider="compStrings" finished-at="2016-12-21T01:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alpha Beta]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gamma Delta]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareByOwner -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="compareByOwner(java.lang.String, java.lang.String, int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="compareByOwner" duration-ms="2" started-at="2016-12-21T01:11:42Z" data-provider="compStrings" finished-at="2016-12-21T01:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gamma Delta]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Alpha Beta]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareByOwner -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="compareByOwner(java.lang.String, java.lang.String, int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="compareByOwner" duration-ms="2" started-at="2016-12-21T01:11:42Z" data-provider="compStrings" finished-at="2016-12-21T01:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[alpha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Alpha]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareByOwner -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="2" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="compareByReturnDate([I, [I, int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="compareByReturnDate" duration-ms="2" started-at="2016-12-21T01:11:42Z" data-provider="compYears" finished-at="2016-12-21T01:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@27a5f880]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[I@1d29cf23]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareByReturnDate -->
+        <test-method status="PASS" signature="compareByReturnDate([I, [I, int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="compareByReturnDate" duration-ms="2" started-at="2016-12-21T01:11:42Z" data-provider="compYears" finished-at="2016-12-21T01:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@5f282abb]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[I@167fdd33]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareByReturnDate -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="3" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="compareByReturnDate([I, [I, int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="compareByReturnDate" duration-ms="3" started-at="2016-12-21T01:11:42Z" data-provider="compYears" finished-at="2016-12-21T01:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@1e965684]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[I@4d95d2a2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareByReturnDate -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="compareByReturnDate([I, [I, int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="compareByReturnDate" duration-ms="3" started-at="2016-12-21T01:11:42Z" data-provider="compYears" finished-at="2016-12-21T01:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@53f65459]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[I@3b088d51]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareByReturnDate -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="compareByReturnDate([I, [I, int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="compareByReturnDate" duration-ms="3" started-at="2016-12-21T01:11:42Z" data-provider="compYears" finished-at="2016-12-21T01:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@1786dec2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[I@74650e52]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareByReturnDate -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="compareByReturnDate([I, [I, int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="compareByReturnDate" duration-ms="2" started-at="2016-12-21T01:11:42Z" data-provider="compYears" finished-at="2016-12-21T01:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@15d0c81b]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[I@6acdbdf5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareByReturnDate -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="compareDateDate([I, [I, int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="compareDateDate" duration-ms="2" started-at="2016-12-21T01:11:42Z" data-provider="compYears" finished-at="2016-12-21T01:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@4b1c1ea0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[I@17579e0f]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareDateDate -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="compareDateDate([I, [I, int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="compareDateDate" duration-ms="2" started-at="2016-12-21T01:11:42Z" data-provider="compYears" finished-at="2016-12-21T01:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@4d41cee]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[I@3712b94]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareDateDate -->
+        <test-method status="PASS" signature="compareDateDate([I, [I, int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="compareDateDate" duration-ms="2" started-at="2016-12-21T01:11:42Z" data-provider="compYears" finished-at="2016-12-21T01:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@2833cc44]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[I@33f88ab]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareDateDate -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="compareDateDate([I, [I, int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="compareDateDate" duration-ms="2" started-at="2016-12-21T01:11:42Z" data-provider="compYears" finished-at="2016-12-21T01:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@27a8c74e]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[I@2d8f65a4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareDateDate -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="compareDateDate([I, [I, int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="compareDateDate" duration-ms="2" started-at="2016-12-21T01:11:42Z" data-provider="compYears" finished-at="2016-12-21T01:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@1b68ddbd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[I@646d64ab]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareDateDate -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="compareDateDate([I, [I, int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="compareDateDate" duration-ms="2" started-at="2016-12-21T01:11:42Z" data-provider="compYears" finished-at="2016-12-21T01:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@59e5ddf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[I@536aaa8d]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareDateDate -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="compareDateDateNull()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="compareDateDateNull" duration-ms="2" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareDateDateNull -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="compareLendItemLendItemint(java.lang.String, java.lang.String, [I, [I, int, int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="compareLendItemLendItemint" duration-ms="2" started-at="2016-12-21T01:11:42Z" data-provider="compAll" finished-at="2016-12-21T01:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alpha Beta]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Alpha Beta]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[I@e320068]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[[I@1f57539]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareLendItemLendItemint -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="compareLendItemLendItemint(java.lang.String, java.lang.String, [I, [I, int, int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="compareLendItemLendItemint" duration-ms="2" started-at="2016-12-21T01:11:42Z" data-provider="compAll" finished-at="2016-12-21T01:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alpha Beta]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Alpha Beta]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[I@76f2b07d]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[[I@704a52ec]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareLendItemLendItemint -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="compareLendItemLendItemint(java.lang.String, java.lang.String, [I, [I, int, int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="compareLendItemLendItemint" duration-ms="2" started-at="2016-12-21T01:11:42Z" data-provider="compAll" finished-at="2016-12-21T01:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alpha Beta]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Alpha Beta]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[I@6ee52dcd]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[[I@4493d195]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareLendItemLendItemint -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="compareLendItemLendItemint(java.lang.String, java.lang.String, [I, [I, int, int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="compareLendItemLendItemint" duration-ms="2" started-at="2016-12-21T01:11:42Z" data-provider="compAll" finished-at="2016-12-21T01:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alpha Beta]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Alpha Beta]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[I@2781e022]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[[I@57e1b0c]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="5">
               <value>
                 <![CDATA[2]]>
               </value>
@@ -451,62 +924,1211 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sort -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T01:02:51Z" finished-at="2016-12-21T01:02:51Z">
+        </test-method> <!-- compareLendItemLendItemint -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="FAIL" signature="sort(int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="sort" duration-ms="5" started-at="2016-12-21T01:02:51Z" description="tests if sorting is implemented as expected, prerequisite: compare function is used!" data-provider="sortingOrder" finished-at="2016-12-21T01:02:51Z">
+        <test-method status="PASS" signature="compareLendItemLendItemint(java.lang.String, java.lang.String, [I, [I, int, int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="compareLendItemLendItemint" duration-ms="1" started-at="2016-12-21T01:11:42Z" data-provider="compAll" finished-at="2016-12-21T01:11:42Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[20]]>
+                <![CDATA[Alpha Beta]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Alpha Beta]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[I@4232c52b]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[[I@1877ab81]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[sorting not as expected, sorted by description expected [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@3b0143d3] but found [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@5a8e6209]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: sorting not as expected, sorted by description expected [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@3b0143d3] but found [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@5a8e6209]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
-	at org.testng.Assert.assertEquals(Assert.java:116)
-	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.sort(LendItemArrayListFunctionsTest.java:442)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:753)
-	at org.testng.TestRunner.run(TestRunner.java:607)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
-	at org.testng.TestNG.runSuites(TestNG.java:1124)
-	at org.testng.TestNG.run(TestNG.java:1096)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sort -->
-      </class> <!-- bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
-</testng-results>
+        </test-method> <!-- compareLendItemLendItemint -->
+        <test-method status="PASS" signature="compareLendItemLendItemint(java.lang.String, java.lang.String, [I, [I, int, int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="compareLendItemLendItemint" duration-ms="2" started-at="2016-12-21T01:11:42Z" data-provider="compAll" finished-at="2016-12-21T01:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alpha Beta]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Alpha Beta]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[I@305fd85d]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[[I@458c1321]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareLendItemLendItemint -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="compareLendItemLendItemint(java.lang.String, java.lang.String, [I, [I, int, int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="compareLendItemLendItemint" duration-ms="2" started-at="2016-12-21T01:11:42Z" data-provider="compAll" finished-at="2016-12-21T01:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alpha Beta]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Alpha Beta]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[I@11438d26]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[[I@34cd072c]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareLendItemLendItemint -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="compareLendItemLendItemint(java.lang.String, java.lang.String, [I, [I, int, int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="compareLendItemLendItemint" duration-ms="1" started-at="2016-12-21T01:11:42Z" data-provider="compAll" finished-at="2016-12-21T01:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alpha Beta]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gamma Delta]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[I@7a1ebcd8]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[[I@5faeada1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareLendItemLendItemint -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="compareLendItemLendItemint(java.lang.String, java.lang.String, [I, [I, int, int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="compareLendItemLendItemint" duration-ms="2" started-at="2016-12-21T01:11:42Z" data-provider="compAll" finished-at="2016-12-21T01:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gamma Delta]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Alpha Beta]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[I@528931cf]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[[I@ea1a8d5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareLendItemLendItemint -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="compareLendItemLendItemint(java.lang.String, java.lang.String, [I, [I, int, int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="compareLendItemLendItemint" duration-ms="2" started-at="2016-12-21T01:11:42Z" data-provider="compAll" finished-at="2016-12-21T01:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[alpha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Alpha]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[I@1563da5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[[I@2bbf4b8b]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareLendItemLendItemint -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="compareLendItemLendItemint(java.lang.String, java.lang.String, [I, [I, int, int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="compareLendItemLendItemint" duration-ms="2" started-at="2016-12-21T01:11:42Z" data-provider="compAll" finished-at="2016-12-21T01:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alpha Beta]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Alpha Beta]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[I@30a3107a]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[[I@33c7e1bb]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[-10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareLendItemLendItemint -->
+        <test-method status="PASS" signature="compareLendItemLendItemint(java.lang.String, java.lang.String, [I, [I, int, int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="compareLendItemLendItemint" duration-ms="3" started-at="2016-12-21T01:11:42Z" data-provider="compAll" finished-at="2016-12-21T01:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alpha Beta]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gamma Delta]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[I@34c4973]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[[I@52feb982]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareLendItemLendItemint -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="compareLendItemLendItemint(java.lang.String, java.lang.String, [I, [I, int, int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="compareLendItemLendItemint" duration-ms="2" started-at="2016-12-21T01:11:42Z" data-provider="compAll" finished-at="2016-12-21T01:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gamma Delta]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Alpha Beta]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[I@7a765367]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[[I@76b0bfab]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareLendItemLendItemint -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="equalsDateDate([I, [I, boolean)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="equalsDateDate" duration-ms="2" started-at="2016-12-21T01:11:42Z" data-provider="eqDate" finished-at="2016-12-21T01:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@17d677df]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[I@3043fe0e]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- equalsDateDate -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="equalsDateDate([I, [I, boolean)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="equalsDateDate" duration-ms="1" started-at="2016-12-21T01:11:42Z" data-provider="eqDate" finished-at="2016-12-21T01:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@78e67e0a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[I@bd8db5a]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- equalsDateDate -->
+        <test-method status="PASS" signature="equalsDateDate([I, [I, boolean)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="equalsDateDate" duration-ms="1" started-at="2016-12-21T01:11:42Z" data-provider="eqDate" finished-at="2016-12-21T01:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@2f943d71]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[I@80503]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- equalsDateDate -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="equalsDateDate([I, [I, boolean)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="equalsDateDate" duration-ms="2" started-at="2016-12-21T01:11:42Z" data-provider="eqDate" finished-at="2016-12-21T01:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@4b553d26]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[I@69a3d1d]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- equalsDateDate -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="equalsDateDateNullValues()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="equalsDateDateNullValues" duration-ms="1" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- equalsDateDateNullValues -->
+        <test-method status="PASS" signature="equalsLendItemLendItem([Ljava.lang.String;, [I, [Ljava.lang.String;, [I, boolean)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="equalsLendItemLendItem" duration-ms="3" started-at="2016-12-21T01:11:42Z" data-provider="compLE" finished-at="2016-12-21T01:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@86be70a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[I@480bdb19]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[Ljava.lang.String;@2a556333]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[[I@7d70d1b1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- equalsLendItemLendItem -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="equalsLendItemLendItem([Ljava.lang.String;, [I, [Ljava.lang.String;, [I, boolean)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="equalsLendItemLendItem" duration-ms="2" started-at="2016-12-21T01:11:42Z" data-provider="compLE" finished-at="2016-12-21T01:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@2a742aa2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[I@3cb1ffe6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[Ljava.lang.String;@3dfc5fb8]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[[I@467aecef]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- equalsLendItemLendItem -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="equalsLendItemLendItem([Ljava.lang.String;, [I, [Ljava.lang.String;, [I, boolean)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="equalsLendItemLendItem" duration-ms="2" started-at="2016-12-21T01:11:42Z" data-provider="compLE" finished-at="2016-12-21T01:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@4d50efb8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[I@7e2d773b]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[Ljava.lang.String;@2173f6d9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[[I@307f6b8c]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- equalsLendItemLendItem -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="equalsLendItemLendItem([Ljava.lang.String;, [I, [Ljava.lang.String;, [I, boolean)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="equalsLendItemLendItem" duration-ms="2" started-at="2016-12-21T01:11:42Z" data-provider="compLE" finished-at="2016-12-21T01:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@7a187f14]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[I@6f195bc3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[Ljava.lang.String;@51e2adc7]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[[I@1a8a8f7c]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- equalsLendItemLendItem -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="equalsLendItemLendItem([Ljava.lang.String;, [I, [Ljava.lang.String;, [I, boolean)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="equalsLendItemLendItem" duration-ms="2" started-at="2016-12-21T01:11:42Z" data-provider="compLE" finished-at="2016-12-21T01:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@2353b3e6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[I@631330c]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[Ljava.lang.String;@42f93a98]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[[I@c46bcd4]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- equalsLendItemLendItem -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="equalsLendItemLendItem([Ljava.lang.String;, [I, [Ljava.lang.String;, [I, boolean)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="equalsLendItemLendItem" duration-ms="1" started-at="2016-12-21T01:11:42Z" data-provider="compLE" finished-at="2016-12-21T01:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@3234e239]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[I@3d921e20]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[Ljava.lang.String;@36b4cef0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[[I@fad74ee]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- equalsLendItemLendItem -->
+        <test-method status="PASS" signature="equalsLendItemLendItemNullValues()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="equalsLendItemLendItemNullValues" duration-ms="2" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- equalsLendItemLendItemNullValues -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="isOut()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="isOut" duration-ms="2" started-at="2016-12-21T01:11:42Z" description="tests return value of isOut with null and set value " finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isOut -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="lendItemString(java.lang.String, java.lang.String, java.lang.String, [I, [I, java.lang.String, int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="lendItemString" duration-ms="2" started-at="2016-12-21T01:11:42Z" data-provider="liString" finished-at="2016-12-21T01:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[normal mycd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[marten]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[anna rosa]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[[I@1a1d6a08]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[[I@37d31475]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[normal mycd     marten     2010.11.01 2015.11.01 anna rosa ]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lendItemString -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="lendItemString(java.lang.String, java.lang.String, java.lang.String, [I, [I, java.lang.String, int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="lendItemString" duration-ms="2" started-at="2016-12-21T01:11:42Z" data-provider="liString" finished-at="2016-12-21T01:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[very very long description to be cut]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[anna-maria-magdalena]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Franz-Ferdinand]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[[I@27808f31]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[[I@436e852b]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[very very long  anna-maria 2013.11.01 2008.08.01 Franz-Ferd]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lendItemString -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="lendItemString(java.lang.String, java.lang.String, java.lang.String, [I, [I, java.lang.String, int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="lendItemString" duration-ms="1" started-at="2016-12-21T01:11:42Z" data-provider="liString" finished-at="2016-12-21T01:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mycd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[marten]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[anna rosa]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[[I@32d2fa64]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[[I@1d8d30f7]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[mycd            marten    ]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lendItemString -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="lendItemString(java.lang.String, java.lang.String, java.lang.String, [I, [I, java.lang.String, int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="lendItemString" duration-ms="2" started-at="2016-12-21T01:11:42Z" data-provider="liString" finished-at="2016-12-21T01:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[very very long description to be cut]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[anna-maria-magdalena]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Franz-Ferdinand]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[[I@3e57cd70]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[[I@9a7504c]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[very very long  anna-maria]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lendItemString -->
+        <test-method status="PASS" signature="lendItemString(java.lang.String, java.lang.String, java.lang.String, [I, [I, java.lang.String, int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="lendItemString" duration-ms="2" started-at="2016-12-21T01:11:42Z" data-provider="liString" finished-at="2016-12-21T01:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mycd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[marten]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[anna rosa]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[[I@2c039ac6]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[[I@587d1d39]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA["mycd","marten","2015.10.06","2015.11.05","anna rosa"]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lendItemString -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="lendItemString(java.lang.String, java.lang.String, java.lang.String, [I, [I, java.lang.String, int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="lendItemString" duration-ms="3" started-at="2016-12-21T01:11:42Z" data-provider="liString" finished-at="2016-12-21T01:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[very very long description to be cut]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[anna-maria-magdalena]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Franz-Ferdinand]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[[I@58c1670b]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[[I@6b57696f]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA["very very long description to be cut","anna-maria-magdalena","2013.11.01","2008.08.01","Franz-Ferdinand"]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lendItemString -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="scanDate(java.lang.String, int, int, int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="scanDate" duration-ms="11" started-at="2016-12-21T01:11:42Z" description="reads different input and checks correct return value based on last entered y,m,d" data-provider="inoutDate" finished-at="2016-12-21T01:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2001
+10
+1
+]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2001]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scanDate -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="scanDate(java.lang.String, int, int, int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="scanDate" duration-ms="2" started-at="2016-12-21T01:11:42Z" description="reads different input and checks correct return value based on last entered y,m,d" data-provider="inoutDate" finished-at="2016-12-21T01:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1500
+10
+1
+2001
+10
+1
+]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2001]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scanDate -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="scanDate(java.lang.String, int, int, int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="scanDate" duration-ms="1" started-at="2016-12-21T01:11:42Z" description="reads different input and checks correct return value based on last entered y,m,d" data-provider="inoutDate" finished-at="2016-12-21T01:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2001
+22
+1
+2001
+10
+1
+]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2001]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scanDate -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="scanDate(java.lang.String, int, int, int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="scanDate" duration-ms="1" started-at="2016-12-21T01:11:42Z" description="reads different input and checks correct return value based on last entered y,m,d" data-provider="inoutDate" finished-at="2016-12-21T01:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2001
+10
+-25
+2001
+10
+1
+]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2001]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scanDate -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:11:42Z" finished-at="2016-12-21T01:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="scanLendItem(java.lang.String, java.lang.String, java.lang.String, java.lang.String, int, int, int, int, int, int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="scanLendItem" duration-ms="3" started-at="2016-12-21T01:11:42Z" data-provider="inoutLendItem" finished-at="2016-12-21T01:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[my very cool cd
+you
+me
+2001
+10
+1
+2001
+11
+1
+]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[my very cool cd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[you]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[me]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2001]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2001]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scanLendItem -->
+        <test-method status="PASS" signature="scanLendItem(java.lang.String, java.lang.String, java.lang.String, java.lang.String, int, int, int, int, int, int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.tests.LendItemFunctionsTest@5ae9a829]" name="scanLendItem" duration-ms="3" started-at="2016-12-21T01:11:42Z" data-provider="inoutLendItem" finished-at="2016-12-21T01:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[
+you
+me
+java book
+you
+me
+2001
+10
+1
+2001
+11
+1
+]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[java book]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[you]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[me]]>
+              </v

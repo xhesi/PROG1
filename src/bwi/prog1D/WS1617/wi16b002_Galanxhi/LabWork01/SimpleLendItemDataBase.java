@@ -3,9 +3,11 @@ import bwi.prog.utils.TextIO;
 import bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.*;
 public class SimpleLendItemDataBase {
 	public static void main(String[] args){
-		//interactiveMenu();
-		TextIO.putln(LendItemFunctions.lendItemSeparator(0));
+		
+		//TextIO.putln(LendItemFunctions.lendItemSeparator(0));
 		populateDB();
+		
+		interactiveMenu();
 	}
 	
 	
@@ -30,8 +32,8 @@ public class SimpleLendItemDataBase {
 			LendItemArrayListFunctions.add(list, li);
 			
 			}
-		LendItemArrayListFunctions.remove(list, 7);
-		LendItemArrayListFunctions.list(list, 0);
+	//	LendItemArrayListFunctions.remove(list, 7);
+	//	LendItemArrayListFunctions.list(list, 0);
 	}
 	public static void interactiveMenu(){
 		String menuOptions = 	"1) list\n" + 
