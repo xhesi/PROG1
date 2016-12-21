@@ -63,8 +63,9 @@ public class SimpleLendItemDataBase {
 				 break;
 			 case 2:
 				 LendItem item = LendItemFunctions.scanLendItem();
+				 item.id=(int) Math.round(Math.random()*100);
 				 if(LendItemArrayListFunctions.add(list, item)){
-					 TextIO.put("1 item added");
+					 TextIO.putln("1 item added.");
 				 }
 				 else{
 					 
@@ -72,12 +73,23 @@ public class SimpleLendItemDataBase {
 				 
 				 break;
 			 case 3:
+				 TextIO.put("Enter ID of LendItem to be removed: ");
+				 int id = TextIO.getlnInt();
+				 int index=LendItemArrayListFunctions.findByID(list,id);
+				 if (index!=-1)
+				 {
+					 LendItemArrayListFunctions.remove(list, index);
+					 TextIO.putln("1 LendItem (ID=" + id + ") removed.");
+				 }
+				 else
+					 TextIO.putln("LendItem not found (ID "+id+")");
 				 break;
 			 case 4:
 				 break;
 			 case 5:
 				 break;
 			 case 6:
+				 
 				 break;
 			 case 0:
 				 break menuloop;
@@ -85,7 +97,7 @@ public class SimpleLendItemDataBase {
 				 TextIO.putln(inputErrorOutput);
 				 continue;
 			 }
-			 TextIO.putln(inputOption);
+			 
 			 
 		}
 	}
