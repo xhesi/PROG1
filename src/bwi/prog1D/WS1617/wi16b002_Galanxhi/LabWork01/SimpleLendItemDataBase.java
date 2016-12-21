@@ -4,16 +4,16 @@ import bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.*;
 public class SimpleLendItemDataBase {
 	public static void main(String[] args){
 		
-		//TextIO.putln(LendItemFunctions.lendItemSeparator(0));
-		populateDB();
+		LendItemArrayList list = new LendItemArrayList();
+		populateDB(list);
 		
-		interactiveMenu();
+		interactiveMenu(list);
 	}
 	
 	
-	public static void populateDB()
+	public static void populateDB(LendItemArrayList list)
 	{
-		LendItemArrayList list = new LendItemArrayList();
+		
 		//list.lendItems = new LendItem[list.INITIAL_SIZE];
 		list.resizeable=true;
 		int nextID=1;
@@ -35,7 +35,7 @@ public class SimpleLendItemDataBase {
 	//	LendItemArrayListFunctions.remove(list, 7);
 	//	LendItemArrayListFunctions.list(list, 0);
 	}
-	public static void interactiveMenu(){
+	public static void interactiveMenu(LendItemArrayList list){
 		String menuOptions = 	"1) list\n" + 
 								"2) add\n" +
 								"3) remove\n" +
@@ -59,6 +59,7 @@ public class SimpleLendItemDataBase {
 			 switch (inputOption)
 			 {
 			 case 1:
+				 LendItemArrayListFunctions.list(list, 1);
 				 break;
 			 case 2:
 				 break;

@@ -72,8 +72,9 @@ public class LendItemArrayListFunctions {
 		int i=0;
 		for (;i<list.next;i++)
 		{
-			TextIO.putln(LendItemFunctions.lendItemString(list.lendItems[i], format) + "("+i +")");
+			TextIO.putln(LendItemFunctions.lendItemString(list.lendItems[i], format) + "("+ String.format("%02d", i) +")");
 		}
+		TextIO.putln(LendItemFunctions.lendItemSeparator(format));
 		if (i==0)
 			TextIO.putln("List empty.");
 		else
