@@ -1,4 +1,6 @@
 package bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01;
+import javax.xml.soap.Text;
+
 import bwi.prog.utils.TextIO;
 import bwi.prog1D.WS1617.wi16b002_Galanxhi.ExerciseSheet05.*;
 public class SimpleLendItemDataBase {
@@ -43,6 +45,7 @@ public class SimpleLendItemDataBase {
 								"5) filter\n" +
 								"6) set format\n" +
 								"0) quit\n";
+		int format=1;
 		int inputOption;
 		String inputErrorOutput="Please enter a number listed in the menu options [0-6]!";
 		menuloop: while (true)
@@ -59,7 +62,7 @@ public class SimpleLendItemDataBase {
 			 switch (inputOption)
 			 {
 			 case 1:
-				 LendItemArrayListFunctions.list(list, 1);
+				 LendItemArrayListFunctions.list(list, format);
 				 break;
 			 case 2:
 				 LendItem item = LendItemFunctions.scanLendItem();
@@ -96,7 +99,8 @@ public class SimpleLendItemDataBase {
 				 
 				 break;
 			 case 6:
-				 
+				 TextIO.put("available options:\n1) full format\n2) short format\n3) csv format\nEnter format option: ");
+				 format=TextIO.getlnInt();
 				 break;
 			 case 0:
 				 break menuloop;
