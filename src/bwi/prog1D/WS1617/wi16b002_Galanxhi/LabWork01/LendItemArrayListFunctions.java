@@ -85,10 +85,28 @@ public class LendItemArrayListFunctions {
 	
 	public static LendItemArrayList filterByDescription(LendItemArrayList list,String desc)
 	{
-		return null;
+		LendItemArrayList newArrayList = new LendItemArrayList();
+		boolean tmp=list.resizeable;
+		newArrayList.resizeable=true;
+		int i=0;
+		for (;i<list.next;i++)
+		{
+			if (list.lendItems[i].description.contains(desc))
+				add(newArrayList,list.lendItems[i]);
+				
+		}
+		newArrayList.resizeable=tmp;
+		return newArrayList;
 	}
 	public static int findByID(LendItemArrayList list, int id) {
-		return 0; 
+		int i=0;
+		for (;i<list.next;i++)
+		{
+			if (list.lendItems[i].id==id)
+				return i;
+				
+		}
+		return -1;
 	}
 	
 	// copy the old array to a new one	

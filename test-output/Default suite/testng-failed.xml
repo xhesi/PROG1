@@ -5,8 +5,6 @@
     <classes>
       <class name="bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest">
         <methods>
-          <include name="filterByDescription" invocation-numbers="0 1 2 3 4"/>
-          <include name="findByID" invocation-numbers="1 2 3 4"/>
           <include name="init"/>
           <include name="sort" invocation-numbers="0 1 2 3 5"/>
         </methods>

@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="14" total="24" passed="10">
+<testng-results skipped="0" failed="5" total="24" passed="19">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="361" started-at="2016-12-20T23:47:43Z" finished-at="2016-12-20T23:47:44Z">
+  <suite name="Default suite" duration-ms="295" started-at="2016-12-21T00:02:51Z" finished-at="2016-12-21T00:02:51Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="361" started-at="2016-12-20T23:47:43Z" finished-at="2016-12-20T23:47:44Z">
+    <test name="Default test" duration-ms="295" started-at="2016-12-21T00:02:51Z" finished-at="2016-12-21T00:02:51Z">
       <class name="bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest">
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="15" started-at="2016-12-21T00:47:43Z" finished-at="2016-12-21T00:47:43Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="11" started-at="2016-12-21T01:02:51Z" finished-at="2016-12-21T01:02:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="add()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="add" duration-ms="18" started-at="2016-12-21T00:47:43Z" description="tests if one lendItem can be added to an empty LendItemArrayList" finished-at="2016-12-21T00:47:43Z">
+        <test-method status="PASS" signature="add()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="add" duration-ms="15" started-at="2016-12-21T01:02:51Z" description="tests if one lendItem can be added to an empty LendItemArrayList" finished-at="2016-12-21T01:02:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- add -->
-        <test-method status="PASS" signature="addToFullNotResizable()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="addToFullNotResizable" duration-ms="3" started-at="2016-12-21T00:47:43Z" description="tests if one lendItem can be added to a full not resizable LendItemArrayList" finished-at="2016-12-21T00:47:43Z">
+        <test-method status="PASS" signature="addToFullNotResizable()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="addToFullNotResizable" duration-ms="3" started-at="2016-12-21T01:02:51Z" description="tests if one lendItem can be added to a full not resizable LendItemArrayList" finished-at="2016-12-21T01:02:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addToFullNotResizable -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T00:47:43Z" finished-at="2016-12-21T00:47:43Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:02:51Z" finished-at="2016-12-21T01:02:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="2" started-at="2016-12-21T00:47:43Z" finished-at="2016-12-21T00:47:43Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:02:51Z" finished-at="2016-12-21T01:02:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="addToFullResizable()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="addToFullResizable" duration-ms="5" started-at="2016-12-21T00:47:43Z" description="tests if one lendItem can be added to a full RESIZABLE LendItemArrayList" finished-at="2016-12-21T00:47:43Z">
+        <test-method status="PASS" signature="addToFullResizable()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="addToFullResizable" duration-ms="3" started-at="2016-12-21T01:02:51Z" description="tests if one lendItem can be added to a full RESIZABLE LendItemArrayList" finished-at="2016-12-21T01:02:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addToFullResizable -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T00:47:43Z" finished-at="2016-12-21T00:47:43Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T01:02:51Z" finished-at="2016-12-21T01:02:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="FAIL" signature="filterByDescription(java.lang.String)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="filterByDescription" duration-ms="15" started-at="2016-12-21T00:47:43Z" description="tests if filter by description returns the defined result" data-provider="filterDesc" finished-at="2016-12-21T00:47:43Z">
+        <test-method status="PASS" signature="filterByDescription(java.lang.String)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="filterByDescription" duration-ms="15" started-at="2016-12-21T01:02:51Z" description="tests if filter by description returns the defined result" data-provider="filterDesc" finished-at="2016-12-21T01:02:51Z">
           <params>
             <param index="0">
               <value>
@@ -43,47 +43,14 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.getPrivateField(LendItemArrayListFunctionsTest.java:468)
-	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.filterByDescription(LendItemArrayListFunctionsTest.java:334)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:753)
-	at org.testng.TestRunner.run(TestRunner.java:607)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
-	at org.testng.TestNG.runSuites(TestNG.java:1124)
-	at org.testng.TestNG.run(TestNG.java:1096)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- filterByDescription -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T00:47:43Z" finished-at="2016-12-21T00:47:43Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T01:02:51Z" finished-at="2016-12-21T01:02:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="FAIL" signature="filterByDescription(java.lang.String)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="filterByDescription" duration-ms="12" started-at="2016-12-21T00:47:43Z" description="tests if filter by description returns the defined result" data-provider="filterDesc" finished-at="2016-12-21T00:47:43Z">
+        <test-method status="PASS" signature="filterByDescription(java.lang.String)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="filterByDescription" duration-ms="9" started-at="2016-12-21T01:02:51Z" description="tests if filter by description returns the defined result" data-provider="filterDesc" finished-at="2016-12-21T01:02:51Z">
           <params>
             <param index="0">
               <value>
@@ -91,47 +58,10 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.getPrivateField(LendItemArrayListFunctionsTest.java:468)
-	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.filterByDescription(LendItemArrayListFunctionsTest.java:334)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:753)
-	at org.testng.TestRunner.run(TestRunner.java:607)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
-	at org.testng.TestNG.runSuites(TestNG.java:1124)
-	at org.testng.TestNG.run(TestNG.java:1096)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- filterByDescription -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T00:47:43Z" finished-at="2016-12-21T00:47:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="FAIL" signature="filterByDescription(java.lang.String)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="filterByDescription" duration-ms="8" started-at="2016-12-21T00:47:43Z" description="tests if filter by description returns the defined result" data-provider="filterDesc" finished-at="2016-12-21T00:47:43Z">
+        <test-method status="PASS" signature="filterByDescription(java.lang.String)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="filterByDescription" duration-ms="8" started-at="2016-12-21T01:02:51Z" description="tests if filter by description returns the defined result" data-provider="filterDesc" finished-at="2016-12-21T01:02:51Z">
           <params>
             <param index="0">
               <value>
@@ -139,43 +69,14 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.getPrivateField(LendItemArrayListFunctionsTest.java:468)
-	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.filterByDescription(LendItemArrayListFunctionsTest.java:334)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:753)
-	at org.testng.TestRunner.run(TestRunner.java:607)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
-	at org.testng.TestNG.runSuites(TestNG.java:1124)
-	at org.testng.TestNG.run(TestNG.java:1096)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- filterByDescription -->
-        <test-method status="FAIL" signature="filterByDescription(java.lang.String)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="filterByDescription" duration-ms="10" started-at="2016-12-21T00:47:43Z" description="tests if filter by description returns the defined result" data-provider="filterDesc" finished-at="2016-12-21T00:47:43Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:02:51Z" finished-at="2016-12-21T01:02:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="filterByDescription(java.lang.String)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="filterByDescription" duration-ms="10" started-at="2016-12-21T01:02:51Z" description="tests if filter by description returns the defined result" data-provider="filterDesc" finished-at="2016-12-21T01:02:51Z">
           <params>
             <param index="0">
               <value>
@@ -183,51 +84,18 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.getPrivateField(LendItemArrayListFunctionsTest.java:468)
-	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.filterByDescription(LendItemArrayListFunctionsTest.java:334)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:753)
-	at org.testng.TestRunner.run(TestRunner.java:607)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
-	at org.testng.TestNG.runSuites(TestNG.java:1124)
-	at org.testng.TestNG.run(TestNG.java:1096)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- filterByDescription -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T00:47:43Z" finished-at="2016-12-21T00:47:43Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:02:51Z" finished-at="2016-12-21T01:02:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T00:47:43Z" finished-at="2016-12-21T00:47:43Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T01:02:51Z" finished-at="2016-12-21T01:02:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="FAIL" signature="filterByDescription(java.lang.String)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="filterByDescription" duration-ms="11" started-at="2016-12-21T00:47:43Z" description="tests if filter by description returns the defined result" data-provider="filterDesc" finished-at="2016-12-21T00:47:43Z">
+        <test-method status="PASS" signature="filterByDescription(java.lang.String)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="filterByDescription" duration-ms="11" started-at="2016-12-21T01:02:51Z" description="tests if filter by description returns the defined result" data-provider="filterDesc" finished-at="2016-12-21T01:02:51Z">
           <params>
             <param index="0">
               <value>
@@ -235,47 +103,14 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.getPrivateField(LendItemArrayListFunctionsTest.java:468)
-	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.filterByDescription(LendItemArrayListFunctionsTest.java:334)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:753)
-	at org.testng.TestRunner.run(TestRunner.java:607)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
-	at org.testng.TestNG.runSuites(TestNG.java:1124)
-	at org.testng.TestNG.run(TestNG.java:1096)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- filterByDescription -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T00:47:43Z" finished-at="2016-12-21T00:47:43Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T01:02:51Z" finished-at="2016-12-21T01:02:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="findByID(int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="findByID" duration-ms="10" started-at="2016-12-21T00:47:43Z" description="test if a LendItem can be found by ID" data-provider="id" finished-at="2016-12-21T00:47:43Z">
+        <test-method status="PASS" signature="findByID(int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="findByID" duration-ms="8" started-at="2016-12-21T01:02:51Z" description="test if a LendItem can be found by ID" data-provider="id" finished-at="2016-12-21T01:02:51Z">
           <params>
             <param index="0">
               <value>
@@ -286,11 +121,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findByID -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T00:47:43Z" finished-at="2016-12-21T00:47:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="FAIL" signature="findByID(int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="findByID" duration-ms="12" started-at="2016-12-21T00:47:43Z" description="test if a LendItem can be found by ID" data-provider="id" finished-at="2016-12-21T00:47:43Z">
+        <test-method status="PASS" signature="findByID(int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="findByID" duration-ms="8" started-at="2016-12-21T01:02:51Z" description="test if a LendItem can be found by ID" data-provider="id" finished-at="2016-12-21T01:02:51Z">
           <params>
             <param index="0">
               <value>
@@ -298,54 +129,18 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[wrong index returned expected [3] but found [0]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: wrong index returned expected [3] but found [0]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
-	at org.testng.Assert.assertEquals(Assert.java:116)
-	at org.testng.Assert.assertEquals(Assert.java:389)
-	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.findByID(LendItemArrayListFunctionsTest.java:378)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:753)
-	at org.testng.TestRunner.run(TestRunner.java:607)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
-	at org.testng.TestNG.runSuites(TestNG.java:1124)
-	at org.testng.TestNG.run(TestNG.java:1096)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findByID -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T00:47:43Z" finished-at="2016-12-21T00:47:43Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:02:51Z" finished-at="2016-12-21T01:02:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="FAIL" signature="findByID(int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="findByID" duration-ms="13" started-at="2016-12-21T00:47:43Z" description="test if a LendItem can be found by ID" data-provider="id" finished-at="2016-12-21T00:47:43Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T01:02:51Z" finished-at="2016-12-21T01:02:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="findByID(int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="findByID" duration-ms="5" started-at="2016-12-21T01:02:51Z" description="test if a LendItem can be found by ID" data-provider="id" finished-at="2016-12-21T01:02:51Z">
           <params>
             <param index="0">
               <value>
@@ -353,54 +148,14 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[wrong index returned expected [-1] but found [0]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: wrong index returned expected [-1] but found [0]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
-	at org.testng.Assert.assertEquals(Assert.java:116)
-	at org.testng.Assert.assertEquals(Assert.java:389)
-	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.findByID(LendItemArrayListFunctionsTest.java:378)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:753)
-	at org.testng.TestRunner.run(TestRunner.java:607)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
-	at org.testng.TestNG.runSuites(TestNG.java:1124)
-	at org.testng.TestNG.run(TestNG.java:1096)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findByID -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T00:47:43Z" finished-at="2016-12-21T00:47:43Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T01:02:51Z" finished-at="2016-12-21T01:02:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="FAIL" signature="findByID(int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="findByID" duration-ms="8" started-at="2016-12-21T00:47:43Z" description="test if a LendItem can be found by ID" data-provider="id" finished-at="2016-12-21T00:47:43Z">
+        <test-method status="PASS" signature="findByID(int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="findByID" duration-ms="4" started-at="2016-12-21T01:02:51Z" description="test if a LendItem can be found by ID" data-provider="id" finished-at="2016-12-21T01:02:51Z">
           <params>
             <param index="0">
               <value>
@@ -408,50 +163,14 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[wrong index returned expected [-1] but found [0]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: wrong index returned expected [-1] but found [0]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
-	at org.testng.Assert.assertEquals(Assert.java:116)
-	at org.testng.Assert.assertEquals(Assert.java:389)
-	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.findByID(LendItemArrayListFunctionsTest.java:378)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:753)
-	at org.testng.TestRunner.run(TestRunner.java:607)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
-	at org.testng.TestNG.runSuites(TestNG.java:1124)
-	at org.testng.TestNG.run(TestNG.java:1096)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findByID -->
-        <test-method status="FAIL" signature="findByID(int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="findByID" duration-ms="6" started-at="2016-12-21T00:47:43Z" description="test if a LendItem can be found by ID" data-provider="id" finished-at="2016-12-21T00:47:44Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:02:51Z" finished-at="2016-12-21T01:02:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="findByID(int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="findByID" duration-ms="5" started-at="2016-12-21T01:02:51Z" description="test if a LendItem can be found by ID" data-provider="id" finished-at="2016-12-21T01:02:51Z">
           <params>
             <param index="0">
               <value>
@@ -459,94 +178,50 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[wrong index returned expected [15] but found [0]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: wrong index returned expected [15] but found [0]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
-	at org.testng.Assert.assertEquals(Assert.java:116)
-	at org.testng.Assert.assertEquals(Assert.java:389)
-	at bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest.findByID(LendItemArrayListFunctionsTest.java:378)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:753)
-	at org.testng.TestRunner.run(TestRunner.java:607)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
-	at org.testng.TestNG.runSuites(TestNG.java:1124)
-	at org.testng.TestNG.run(TestNG.java:1096)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findByID -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T00:47:43Z" finished-at="2016-12-21T00:47:43Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:02:51Z" finished-at="2016-12-21T01:02:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="remove()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="remove" duration-ms="6" started-at="2016-12-21T00:47:44Z" description="test if an item can be removed by index. this test checks the last element was removed successfully(in full array); this test requires the add method is succesfull" finished-at="2016-12-21T00:47:44Z">
+        <test-method status="PASS" signature="remove()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="remove" duration-ms="5" started-at="2016-12-21T01:02:51Z" description="test if an item can be removed by index. this test checks the last element was removed successfully(in full array); this test requires the add method is succesfull" finished-at="2016-12-21T01:02:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- remove -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T00:47:44Z" finished-at="2016-12-21T00:47:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T00:47:44Z" finished-at="2016-12-21T00:47:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="removeFromFullList()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="removeFromFullList" duration-ms="5" started-at="2016-12-21T00:47:44Z" description="test if an item can be removed by index. this test check the last existing element (not in full array); this test requires the add method is succesfull" finished-at="2016-12-21T00:47:44Z">
+        <test-method status="PASS" signature="removeFromFullList()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="removeFromFullList" duration-ms="4" started-at="2016-12-21T01:02:51Z" description="test if an item can be removed by index. this test check the last existing element (not in full array); this test requires the add method is succesfull" finished-at="2016-12-21T01:02:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeFromFullList -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T00:47:44Z" finished-at="2016-12-21T00:47:44Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:02:51Z" finished-at="2016-12-21T01:02:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="removeNonExistingElement()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="removeNonExistingElement" duration-ms="4" started-at="2016-12-21T00:47:44Z" description="test if an item can be removed by index. this test checks an unexisting element can&#039;t be removed (method returns null, no changes); this test requires the add method is succesfull" finished-at="2016-12-21T00:47:44Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T01:02:51Z" finished-at="2016-12-21T01:02:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="removeNonExistingElement()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="removeNonExistingElement" duration-ms="4" started-at="2016-12-21T01:02:51Z" description="test if an item can be removed by index. this test checks an unexisting element can&#039;t be removed (method returns null, no changes); this test requires the add method is succesfull" finished-at="2016-12-21T01:02:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeNonExistingElement -->
-        <test-method status="PASS" signature="removeNonExistingID()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="removeNonExistingID" duration-ms="5" started-at="2016-12-21T00:47:44Z" description="test if an item can be removed by index. this test checks an element with non existing id can&#039;t be removed (method returns null, no changes); this test requires the add method is succesfull" finished-at="2016-12-21T00:47:44Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:02:51Z" finished-at="2016-12-21T01:02:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="removeNonExistingID()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="removeNonExistingID" duration-ms="2" started-at="2016-12-21T01:02:51Z" description="test if an item can be removed by index. this test checks an element with non existing id can&#039;t be removed (method returns null, no changes); this test requires the add method is succesfull" finished-at="2016-12-21T01:02:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeNonExistingID -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T00:47:44Z" finished-at="2016-12-21T00:47:44Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:02:51Z" finished-at="2016-12-21T01:02:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T00:47:44Z" finished-at="2016-12-21T00:47:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="removeSecondElement()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="removeSecondElement" duration-ms="3" started-at="2016-12-21T00:47:44Z" description="test if an item can be removed by index. this test checks that the second element was removed successfully, copying all other items afterwards to an index-1; this test requires the add method is succesfull" finished-at="2016-12-21T00:47:44Z">
+        <test-method status="PASS" signature="removeSecondElement()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="removeSecondElement" duration-ms="4" started-at="2016-12-21T01:02:51Z" description="test if an item can be removed by index. this test checks that the second element was removed successfully, copying all other items afterwards to an index-1; this test requires the add method is succesfull" finished-at="2016-12-21T01:02:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeSecondElement -->
-        <test-method status="FAIL" signature="sort(int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="sort" duration-ms="8" started-at="2016-12-21T00:47:44Z" description="tests if sorting is implemented as expected, prerequisite: compare function is used!" data-provider="sortingOrder" finished-at="2016-12-21T00:47:44Z">
+        <test-method status="FAIL" signature="sort(int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="sort" duration-ms="6" started-at="2016-12-21T01:02:51Z" description="tests if sorting is implemented as expected, prerequisite: compare function is used!" data-provider="sortingOrder" finished-at="2016-12-21T01:02:51Z">
           <params>
             <param index="0">
               <value>
@@ -556,10 +231,10 @@
           </params>
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[sorting not as expected, sorted by description expected [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@520a3426] but found [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@18eed359]]]>
+              <![CDATA[sorting not as expected, sorted by description expected [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@2286778] but found [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@4e9ba398]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: sorting not as expected, sorted by description expected [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@520a3426] but found [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@18eed359]
+              <![CDATA[java.lang.AssertionError: sorting not as expected, sorted by description expected [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@2286778] but found [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@4e9ba398]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:513)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
@@ -596,15 +271,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sort -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T00:47:44Z" finished-at="2016-12-21T00:47:44Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:02:51Z" finished-at="2016-12-21T01:02:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T00:47:44Z" finished-at="2016-12-21T00:47:44Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:02:51Z" finished-at="2016-12-21T01:02:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="FAIL" signature="sort(int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="sort" duration-ms="5" started-at="2016-12-21T00:47:44Z" description="tests if sorting is implemented as expected, prerequisite: compare function is used!" data-provider="sortingOrder" finished-at="2016-12-21T00:47:44Z">
+        <test-method status="FAIL" signature="sort(int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="sort" duration-ms="5" started-at="2016-12-21T01:02:51Z" description="tests if sorting is implemented as expected, prerequisite: compare function is used!" data-provider="sortingOrder" finished-at="2016-12-21T01:02:51Z">
           <params>
             <param index="0">
               <value>
@@ -614,10 +289,10 @@
           </params>
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[sorting not as expected, sorted by lender expected [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@185d8b6] but found [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@67784306]]]>
+              <![CDATA[sorting not as expected, sorted by lender expected [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@5f9d02cb] but found [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@63753b6d]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: sorting not as expected, sorted by lender expected [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@185d8b6] but found [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@67784306]
+              <![CDATA[java.lang.AssertionError: sorting not as expected, sorted by lender expected [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@5f9d02cb] but found [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@63753b6d]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:513)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
@@ -654,7 +329,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sort -->
-        <test-method status="FAIL" signature="sort(int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="sort" duration-ms="3" started-at="2016-12-21T00:47:44Z" description="tests if sorting is implemented as expected, prerequisite: compare function is used!" data-provider="sortingOrder" finished-at="2016-12-21T00:47:44Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T01:02:51Z" finished-at="2016-12-21T01:02:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="FAIL" signature="sort(int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="sort" duration-ms="3" started-at="2016-12-21T01:02:51Z" description="tests if sorting is implemented as expected, prerequisite: compare function is used!" data-provider="sortingOrder" finished-at="2016-12-21T01:02:51Z">
           <params>
             <param index="0">
               <value>
@@ -664,10 +343,10 @@
           </params>
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[sorting not as expected, sorted by owner expected [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@2b2948e2] but found [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@6ddf90b0]]]>
+              <![CDATA[sorting not as expected, sorted by owner expected [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@18eed359] but found [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@3e9b1010]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: sorting not as expected, sorted by owner expected [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@2b2948e2] but found [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@6ddf90b0]
+              <![CDATA[java.lang.AssertionError: sorting not as expected, sorted by owner expected [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@18eed359] but found [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@3e9b1010]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:513)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
@@ -704,15 +383,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sort -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T00:47:44Z" finished-at="2016-12-21T00:47:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T00:47:44Z" finished-at="2016-12-21T00:47:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="FAIL" signature="sort(int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="sort" duration-ms="5" started-at="2016-12-21T00:47:44Z" description="tests if sorting is implemented as expected, prerequisite: compare function is used!" data-provider="sortingOrder" finished-at="2016-12-21T00:47:44Z">
+        <test-method status="FAIL" signature="sort(int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="sort" duration-ms="5" started-at="2016-12-21T01:02:51Z" description="tests if sorting is implemented as expected, prerequisite: compare function is used!" data-provider="sortingOrder" finished-at="2016-12-21T01:02:51Z">
           <params>
             <param index="0">
               <value>
@@ -722,10 +393,10 @@
           </params>
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[sorting not as expected, sorted by lend date expected [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@4b4523f8] but found [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@731a74c]]]>
+              <![CDATA[sorting not as expected, sorted by lend date expected [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@67784306] but found [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@335eadca]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: sorting not as expected, sorted by lend date expected [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@4b4523f8] but found [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@731a74c]
+              <![CDATA[java.lang.AssertionError: sorting not as expected, sorted by lend date expected [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@67784306] but found [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@335eadca]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:513)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
@@ -762,7 +433,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sort -->
-        <test-method status="PASS" signature="sort(int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="sort" duration-ms="5" started-at="2016-12-21T00:47:44Z" description="tests if sorting is implemented as expected, prerequisite: compare function is used!" data-provider="sortingOrder" finished-at="2016-12-21T00:47:44Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T01:02:51Z" finished-at="2016-12-21T01:02:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T01:02:51Z" finished-at="2016-12-21T01:02:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="sort(int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="sort" duration-ms="5" started-at="2016-12-21T01:02:51Z" description="tests if sorting is implemented as expected, prerequisite: compare function is used!" data-provider="sortingOrder" finished-at="2016-12-21T01:02:51Z">
           <params>
             <param index="0">
               <value>
@@ -773,11 +452,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sort -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T00:47:44Z" finished-at="2016-12-21T00:47:44Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T01:02:51Z" finished-at="2016-12-21T01:02:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="FAIL" signature="sort(int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="sort" duration-ms="4" started-at="2016-12-21T00:47:44Z" description="tests if sorting is implemented as expected, prerequisite: compare function is used!" data-provider="sortingOrder" finished-at="2016-12-21T00:47:44Z">
+        <test-method status="FAIL" signature="sort(int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="sort" duration-ms="5" started-at="2016-12-21T01:02:51Z" description="tests if sorting is implemented as expected, prerequisite: compare function is used!" data-provider="sortingOrder" finished-at="2016-12-21T01:02:51Z">
           <params>
             <param index="0">
               <value>
@@ -787,10 +466,10 @@
           </params>
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[sorting not as expected, sorted by description expected [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@6325a3ee] but found [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@1d16f93d]]]>
+              <![CDATA[sorting not as expected, sorted by description expected [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@3b0143d3] but found [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@5a8e6209]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: sorting not as expected, sorted by description expected [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@6325a3ee] but found [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@1d16f93d]
+              <![CDATA[java.lang.AssertionError: sorting not as expected, sorted by description expected [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@3b0143d3] but found [bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.LendItem@5a8e6209]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:513)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
@@ -827,10 +506,6 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sort -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@5ae9a829]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T00:47:44Z" finished-at="2016-12-21T00:47:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
       </class> <!-- bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
