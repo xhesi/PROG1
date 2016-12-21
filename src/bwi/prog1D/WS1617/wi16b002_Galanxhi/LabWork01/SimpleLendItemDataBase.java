@@ -87,6 +87,13 @@ public class SimpleLendItemDataBase {
 			 case 4:
 				 break;
 			 case 5:
+				 TextIO.put("enter description: ");
+				 String searchDescription = TextIO.getlnWord();
+				 TextIO.put("displaying matches: ");
+				 
+				 LendItemArrayList searchedByDescription = LendItemArrayListFunctions.filterByDescription(list, searchDescription);
+				 LendItemArrayListFunctions.list(searchedByDescription, 1);
+				 
 				 break;
 			 case 6:
 				 
