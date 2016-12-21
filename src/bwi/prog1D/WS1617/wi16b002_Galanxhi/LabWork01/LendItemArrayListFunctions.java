@@ -1,5 +1,8 @@
 package bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01;
 
+import java.util.Arrays;
+import java.util.Comparator;
+
 import bwi.prog.utils.TextIO;
 
 public class LendItemArrayListFunctions {
@@ -80,7 +83,13 @@ public class LendItemArrayListFunctions {
 	
 	public static void sort(LendItemArrayList list, int order)
 	{
-		
+		Arrays.sort(list.lendItems, new Comparator<LendItem>(){
+
+			@Override
+			public int compare(LendItem i1, LendItem i2) {
+				return LendItemFunctions.compare(i1, i2, order);
+			}
+		});
 	}
 	
 	public static LendItemArrayList filterByDescription(LendItemArrayList list,String desc)
