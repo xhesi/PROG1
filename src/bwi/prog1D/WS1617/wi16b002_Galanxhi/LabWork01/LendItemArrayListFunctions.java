@@ -72,7 +72,10 @@ public class LendItemArrayListFunctions {
 		int i=0;
 		for (;i<list.next;i++)
 		{
-			TextIO.putln(LendItemFunctions.lendItemString(list.lendItems[i], format) + "("+ String.format("%02d", i) +")");
+			TextIO.put(LendItemFunctions.lendItemString(list.lendItems[i], format) );
+			if (format==1)
+				TextIO.put("("+ String.format("%02d", i) +")");
+			TextIO.put("\n");
 		}
 		TextIO.putln(LendItemFunctions.lendItemSeparator(format));
 		if (i==0)
@@ -93,7 +96,7 @@ public class LendItemArrayListFunctions {
 
 			@Override
 			public int compare(LendItem i1, LendItem i2) {
-				if (i1 == null || i2 == null )
+				if (i1 == null || i2 == null)
 					return LendItemFunctions.compare(i1, i2, order)*-1;
 				return LendItemFunctions.compare(i1, i2, order);
 			}

@@ -89,8 +89,8 @@ public class SimpleLendItemDataBase {
 				 break;
 			 case 4:
 				 String[] sortOptions = {"lend date", "return date", "lender", "owner", "description"};
-				 for(int i =1; i<sortOptions.length;i++){
-					 TextIO.putln(i%sortOptions.length+") by "+sortOptions[i-1]);
+				 for(int i =1; i<=sortOptions.length;i++){
+					 TextIO.putln(i+") by "+sortOptions[i-1]);
 				 }
 				 
 				 int chosenOption = TextIO.getlnInt();
@@ -101,8 +101,8 @@ public class SimpleLendItemDataBase {
 				 }
 				 else
 				 {
-					 TextIO.put("valid choice");
 					 LendItemArrayListFunctions.sort(list, chosenOption);
+					 LendItemArrayListFunctions.list(list, format);
 					 
 				 }
 				 //

@@ -2,40 +2,40 @@
 <testng-results skipped="0" failed="0" total="24" passed="24">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="36245" started-at="2016-12-21T01:19:08Z" finished-at="2016-12-21T01:19:44Z">
+  <suite name="Default suite" duration-ms="161892" started-at="2016-12-21T01:59:44Z" finished-at="2016-12-21T02:02:26Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="36245" started-at="2016-12-21T01:19:08Z" finished-at="2016-12-21T01:19:44Z">
+    <test name="Default test" duration-ms="161892" started-at="2016-12-21T01:59:44Z" finished-at="2016-12-21T02:02:26Z">
       <class name="bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest">
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="init" is-config="true" duration-ms="17" started-at="2016-12-21T02:19:08Z" finished-at="2016-12-21T02:19:08Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="init" is-config="true" duration-ms="17" started-at="2016-12-21T02:59:44Z" finished-at="2016-12-21T02:59:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="add()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="add" duration-ms="29" started-at="2016-12-21T02:19:08Z" description="tests if one lendItem can be added to an empty LendItemArrayList" finished-at="2016-12-21T02:19:08Z">
+        <test-method status="PASS" signature="add()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="add" duration-ms="16" started-at="2016-12-21T02:59:44Z" description="tests if one lendItem can be added to an empty LendItemArrayList" finished-at="2016-12-21T02:59:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- add -->
-        <test-method status="PASS" signature="addToFullNotResizable()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="addToFullNotResizable" duration-ms="4" started-at="2016-12-21T02:19:08Z" description="tests if one lendItem can be added to a full not resizable LendItemArrayList" finished-at="2016-12-21T02:19:08Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T02:59:44Z" finished-at="2016-12-21T02:59:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="addToFullNotResizable()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="addToFullNotResizable" duration-ms="2" started-at="2016-12-21T02:59:44Z" description="tests if one lendItem can be added to a full not resizable LendItemArrayList" finished-at="2016-12-21T02:59:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addToFullNotResizable -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T02:19:08Z" finished-at="2016-12-21T02:19:08Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T02:59:44Z" finished-at="2016-12-21T02:59:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T02:19:08Z" finished-at="2016-12-21T02:19:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="addToFullResizable()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="addToFullResizable" duration-ms="4" started-at="2016-12-21T02:19:08Z" description="tests if one lendItem can be added to a full RESIZABLE LendItemArrayList" finished-at="2016-12-21T02:19:08Z">
+        <test-method status="PASS" signature="addToFullResizable()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="addToFullResizable" duration-ms="2" started-at="2016-12-21T02:59:44Z" description="tests if one lendItem can be added to a full RESIZABLE LendItemArrayList" finished-at="2016-12-21T02:59:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addToFullResizable -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T02:19:08Z" finished-at="2016-12-21T02:19:08Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T02:59:44Z" finished-at="2016-12-21T02:59:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="filterByDescription(java.lang.String)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="filterByDescription" duration-ms="21" started-at="2016-12-21T02:19:08Z" description="tests if filter by description returns the defined result" data-provider="filterDesc" finished-at="2016-12-21T02:19:08Z">
+        <test-method status="PASS" signature="filterByDescription(java.lang.String)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="filterByDescription" duration-ms="9" started-at="2016-12-21T02:59:44Z" description="tests if filter by description returns the defined result" data-provider="filterDesc" finished-at="2016-12-21T02:59:44Z">
           <params>
             <param index="0">
               <value>
@@ -46,11 +46,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- filterByDescription -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T02:19:08Z" finished-at="2016-12-21T02:19:08Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T02:59:44Z" finished-at="2016-12-21T02:59:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="filterByDescription(java.lang.String)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="filterByDescription" duration-ms="16" started-at="2016-12-21T02:19:08Z" description="tests if filter by description returns the defined result" data-provider="filterDesc" finished-at="2016-12-21T02:19:08Z">
+        <test-method status="PASS" signature="filterByDescription(java.lang.String)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="filterByDescription" duration-ms="8" started-at="2016-12-21T02:59:44Z" description="tests if filter by description returns the defined result" data-provider="filterDesc" finished-at="2016-12-21T02:59:44Z">
           <params>
             <param index="0">
               <value>
@@ -61,11 +61,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- filterByDescription -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T02:19:08Z" finished-at="2016-12-21T02:19:08Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T02:59:44Z" finished-at="2016-12-21T02:59:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="filterByDescription(java.lang.String)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="filterByDescription" duration-ms="12" started-at="2016-12-21T02:19:08Z" description="tests if filter by description returns the defined result" data-provider="filterDesc" finished-at="2016-12-21T02:19:08Z">
+        <test-method status="PASS" signature="filterByDescription(java.lang.String)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="filterByDescription" duration-ms="5" started-at="2016-12-21T02:59:44Z" description="tests if filter by description returns the defined result" data-provider="filterDesc" finished-at="2016-12-21T02:59:44Z">
           <params>
             <param index="0">
               <value>
@@ -76,11 +76,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- filterByDescription -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T02:19:08Z" finished-at="2016-12-21T02:19:08Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T02:59:44Z" finished-at="2016-12-21T02:59:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="filterByDescription(java.lang.String)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="filterByDescription" duration-ms="10" started-at="2016-12-21T02:19:08Z" description="tests if filter by description returns the defined result" data-provider="filterDesc" finished-at="2016-12-21T02:19:08Z">
+        <test-method status="PASS" signature="filterByDescription(java.lang.String)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="filterByDescription" duration-ms="6" started-at="2016-12-21T02:59:44Z" description="tests if filter by description returns the defined result" data-provider="filterDesc" finished-at="2016-12-21T02:59:44Z">
           <params>
             <param index="0">
               <value>
@@ -91,11 +91,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- filterByDescription -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T02:19:08Z" finished-at="2016-12-21T02:19:08Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T02:59:44Z" finished-at="2016-12-21T02:59:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="filterByDescription(java.lang.String)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="filterByDescription" duration-ms="10" started-at="2016-12-21T02:19:08Z" description="tests if filter by description returns the defined result" data-provider="filterDesc" finished-at="2016-12-21T02:19:08Z">
+        <test-method status="PASS" signature="filterByDescription(java.lang.String)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="filterByDescription" duration-ms="8" started-at="2016-12-21T02:59:44Z" description="tests if filter by description returns the defined result" data-provider="filterDesc" finished-at="2016-12-21T02:59:44Z">
           <params>
             <param index="0">
               <value>
@@ -106,11 +106,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- filterByDescription -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T02:19:08Z" finished-at="2016-12-21T02:19:08Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T02:59:44Z" finished-at="2016-12-21T02:59:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="findByID(int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="findByID" duration-ms="11" started-at="2016-12-21T02:19:08Z" description="test if a LendItem can be found by ID" data-provider="id" finished-at="2016-12-21T02:19:08Z">
+        <test-method status="PASS" signature="findByID(int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="findByID" duration-ms="8" started-at="2016-12-21T02:59:44Z" description="test if a LendItem can be found by ID" data-provider="id" finished-at="2016-12-21T02:59:44Z">
           <params>
             <param index="0">
               <value>
@@ -121,11 +121,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findByID -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T02:19:08Z" finished-at="2016-12-21T02:19:08Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T02:59:44Z" finished-at="2016-12-21T02:59:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="findByID(int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="findByID" duration-ms="8" started-at="2016-12-21T02:19:08Z" description="test if a LendItem can be found by ID" data-provider="id" finished-at="2016-12-21T02:19:08Z">
+        <test-method status="PASS" signature="findByID(int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="findByID" duration-ms="9" started-at="2016-12-21T02:59:44Z" description="test if a LendItem can be found by ID" data-provider="id" finished-at="2016-12-21T02:59:44Z">
           <params>
             <param index="0">
               <value>
@@ -136,11 +136,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findByID -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T02:19:08Z" finished-at="2016-12-21T02:19:08Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T02:59:44Z" finished-at="2016-12-21T02:59:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="findByID(int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="findByID" duration-ms="13" started-at="2016-12-21T02:19:08Z" description="test if a LendItem can be found by ID" data-provider="id" finished-at="2016-12-21T02:19:08Z">
+        <test-method status="PASS" signature="findByID(int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="findByID" duration-ms="10" started-at="2016-12-21T02:59:44Z" description="test if a LendItem can be found by ID" data-provider="id" finished-at="2016-12-21T02:59:44Z">
           <params>
             <param index="0">
               <value>
@@ -151,11 +151,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findByID -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T02:19:08Z" finished-at="2016-12-21T02:19:08Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T02:59:44Z" finished-at="2016-12-21T02:59:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="findByID(int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="findByID" duration-ms="10" started-at="2016-12-21T02:19:08Z" description="test if a LendItem can be found by ID" data-provider="id" finished-at="2016-12-21T02:19:08Z">
+        <test-method status="PASS" signature="findByID(int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="findByID" duration-ms="14" started-at="2016-12-21T02:59:44Z" description="test if a LendItem can be found by ID" data-provider="id" finished-at="2016-12-21T02:59:44Z">
           <params>
             <param index="0">
               <value>
@@ -166,7 +166,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findByID -->
-        <test-method status="PASS" signature="findByID(int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="findByID" duration-ms="7" started-at="2016-12-21T02:19:08Z" description="test if a LendItem can be found by ID" data-provider="id" finished-at="2016-12-21T02:19:08Z">
+        <test-method status="PASS" signature="findByID(int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="findByID" duration-ms="13" started-at="2016-12-21T02:59:44Z" description="test if a LendItem can be found by ID" data-provider="id" finished-at="2016-12-21T02:59:44Z">
           <params>
             <param index="0">
               <value>
@@ -177,55 +177,55 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findByID -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T02:19:08Z" finished-at="2016-12-21T02:19:08Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T02:59:44Z" finished-at="2016-12-21T02:59:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T02:19:08Z" finished-at="2016-12-21T02:19:08Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T02:59:44Z" finished-at="2016-12-21T02:59:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="remove()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="remove" duration-ms="8" started-at="2016-12-21T02:19:08Z" description="test if an item can be removed by index. this test checks the last element was removed successfully(in full array); this test requires the add method is succesfull" finished-at="2016-12-21T02:19:08Z">
+        <test-method status="PASS" signature="remove()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="remove" duration-ms="9" started-at="2016-12-21T02:59:44Z" description="test if an item can be removed by index. this test checks the last element was removed successfully(in full array); this test requires the add method is succesfull" finished-at="2016-12-21T02:59:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- remove -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T02:19:08Z" finished-at="2016-12-21T02:19:08Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T02:59:44Z" finished-at="2016-12-21T02:59:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="removeFromFullList()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="removeFromFullList" duration-ms="9" started-at="2016-12-21T02:19:08Z" description="test if an item can be removed by index. this test check the last existing element (not in full array); this test requires the add method is succesfull" finished-at="2016-12-21T02:19:08Z">
+        <test-method status="PASS" signature="removeFromFullList()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="removeFromFullList" duration-ms="10" started-at="2016-12-21T02:59:44Z" description="test if an item can be removed by index. this test check the last existing element (not in full array); this test requires the add method is succesfull" finished-at="2016-12-21T02:59:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeFromFullList -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="init" is-config="true" duration-ms="2" started-at="2016-12-21T02:19:08Z" finished-at="2016-12-21T02:19:08Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="init" is-config="true" duration-ms="2" started-at="2016-12-21T02:59:44Z" finished-at="2016-12-21T02:59:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="removeNonExistingElement()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="removeNonExistingElement" duration-ms="5" started-at="2016-12-21T02:19:08Z" description="test if an item can be removed by index. this test checks an unexisting element can&#039;t be removed (method returns null, no changes); this test requires the add method is succesfull" finished-at="2016-12-21T02:19:08Z">
+        <test-method status="PASS" signature="removeNonExistingElement()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="removeNonExistingElement" duration-ms="11686" started-at="2016-12-21T02:59:44Z" description="test if an item can be removed by index. this test checks an unexisting element can&#039;t be removed (method returns null, no changes); this test requires the add method is succesfull" finished-at="2016-12-21T02:59:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeNonExistingElement -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T02:19:08Z" finished-at="2016-12-21T02:19:08Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T02:59:56Z" finished-at="2016-12-21T02:59:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="removeNonExistingID()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="removeNonExistingID" duration-ms="3" started-at="2016-12-21T02:19:08Z" description="test if an item can be removed by index. this test checks an element with non existing id can&#039;t be removed (method returns null, no changes); this test requires the add method is succesfull" finished-at="2016-12-21T02:19:08Z">
+        <test-method status="PASS" signature="removeNonExistingID()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="removeNonExistingID" duration-ms="3" started-at="2016-12-21T02:59:56Z" description="test if an item can be removed by index. this test checks an element with non existing id can&#039;t be removed (method returns null, no changes); this test requires the add method is succesfull" finished-at="2016-12-21T02:59:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeNonExistingID -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T02:19:08Z" finished-at="2016-12-21T02:19:08Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T02:59:56Z" finished-at="2016-12-21T02:59:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="removeSecondElement()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="removeSecondElement" duration-ms="4" started-at="2016-12-21T02:19:08Z" description="test if an item can be removed by index. this test checks that the second element was removed successfully, copying all other items afterwards to an index-1; this test requires the add method is succesfull" finished-at="2016-12-21T02:19:08Z">
+        <test-method status="PASS" signature="removeSecondElement()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="removeSecondElement" duration-ms="3" started-at="2016-12-21T02:59:56Z" description="test if an item can be removed by index. this test checks that the second element was removed successfully, copying all other items afterwards to an index-1; this test requires the add method is succesfull" finished-at="2016-12-21T02:59:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeSecondElement -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T02:19:08Z" finished-at="2016-12-21T02:19:08Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T02:59:56Z" finished-at="2016-12-21T02:59:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="sort(int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="sort" duration-ms="23337" started-at="2016-12-21T02:19:08Z" description="tests if sorting is implemented as expected, prerequisite: compare function is used!" data-provider="sortingOrder" finished-at="2016-12-21T02:19:32Z">
+        <test-method status="PASS" signature="sort(int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="sort" duration-ms="26" started-at="2016-12-21T02:59:56Z" description="tests if sorting is implemented as expected, prerequisite: compare function is used!" data-provider="sortingOrder" finished-at="2016-12-21T02:59:56Z">
           <params>
             <param index="0">
               <value>
@@ -236,11 +236,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sort -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T02:19:32Z" finished-at="2016-12-21T02:19:32Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T02:59:56Z" finished-at="2016-12-21T02:59:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="sort(int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="sort" duration-ms="5075" started-at="2016-12-21T02:19:32Z" description="tests if sorting is implemented as expected, prerequisite: compare function is used!" data-provider="sortingOrder" finished-at="2016-12-21T02:19:37Z">
+        <test-method status="PASS" signature="sort(int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="sort" duration-ms="8" started-at="2016-12-21T02:59:56Z" description="tests if sorting is implemented as expected, prerequisite: compare function is used!" data-provider="sortingOrder" finished-at="2016-12-21T02:59:56Z">
           <params>
             <param index="0">
               <value>
@@ -251,11 +251,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sort -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T02:19:37Z" finished-at="2016-12-21T02:19:37Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T02:59:56Z" finished-at="2016-12-21T02:59:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="sort(int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="sort" duration-ms="1442" started-at="2016-12-21T02:19:37Z" description="tests if sorting is implemented as expected, prerequisite: compare function is used!" data-provider="sortingOrder" finished-at="2016-12-21T02:19:38Z">
+        <test-method status="PASS" signature="sort(int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="sort" duration-ms="146488" started-at="2016-12-21T02:59:56Z" description="tests if sorting is implemented as expected, prerequisite: compare function is used!" data-provider="sortingOrder" finished-at="2016-12-21T03:02:22Z">
           <params>
             <param index="0">
               <value>
@@ -266,11 +266,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sort -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T02:19:38Z" finished-at="2016-12-21T02:19:38Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T03:02:22Z" finished-at="2016-12-21T03:02:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="sort(int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="sort" duration-ms="877" started-at="2016-12-21T02:19:38Z" description="tests if sorting is implemented as expected, prerequisite: compare function is used!" data-provider="sortingOrder" finished-at="2016-12-21T02:19:39Z">
+        <test-method status="PASS" signature="sort(int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="sort" duration-ms="799" started-at="2016-12-21T03:02:22Z" description="tests if sorting is implemented as expected, prerequisite: compare function is used!" data-provider="sortingOrder" finished-at="2016-12-21T03:02:23Z">
           <params>
             <param index="0">
               <value>
@@ -281,11 +281,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sort -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T02:19:39Z" finished-at="2016-12-21T02:19:39Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T03:02:23Z" finished-at="2016-12-21T03:02:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="sort(int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="sort" duration-ms="1572" started-at="2016-12-21T02:19:39Z" description="tests if sorting is implemented as expected, prerequisite: compare function is used!" data-provider="sortingOrder" finished-at="2016-12-21T02:19:41Z">
+        <test-method status="PASS" signature="sort(int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="sort" duration-ms="1357" started-at="2016-12-21T03:02:23Z" description="tests if sorting is implemented as expected, prerequisite: compare function is used!" data-provider="sortingOrder" finished-at="2016-12-21T03:02:24Z">
           <params>
             <param index="0">
               <value>
@@ -296,11 +296,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sort -->
-        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="init" is-config="true" duration-ms="1" started-at="2016-12-21T02:19:41Z" finished-at="2016-12-21T02:19:41Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="init" is-config="true" duration-ms="0" started-at="2016-12-21T03:02:24Z" finished-at="2016-12-21T03:02:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="sort(int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="sort" duration-ms="3543" started-at="2016-12-21T02:19:41Z" description="tests if sorting is implemented as expected, prerequisite: compare function is used!" data-provider="sortingOrder" finished-at="2016-12-21T02:19:44Z">
+        <test-method status="PASS" signature="sort(int)[pri:0, instance:bwi.prog1D.WS1617.wi16b002_Galanxhi.LabWork01.tests.LendItemArrayListFunctionsTest@4386f16]" name="sort" duration-ms="1232" started-at="2016-12-21T03:02:24Z" description="tests if sorting is implemented as expected, prerequisite: compare function is used!" data-provider="sortingOrder" finished-at="2016-12-21T03:02:26Z">
           <params>
             <param index="0">
               <value>

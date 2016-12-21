@@ -133,13 +133,23 @@ public class LendItemFunctions {
 	 {
 		//null comparison
 		if (it1 == null && it2 == null)
+		{
+			
 			return 0;
+		}
 		else if (it1 == null)
 			return -1;
 		else if (it2 == null)
 			return 1;
 		//end null comparison
-		
+		//null comparison
+		if (it1.owner == null && it2.owner == null)
+			return 0;
+		else if (it1.owner == null)
+			return -1;
+		else if (it2.owner == null)
+			return 1;
+		//end null comparison
 		
 		int tmp=it1.owner.compareTo(it2.owner);
 		if (tmp>0) return 1;
@@ -263,9 +273,9 @@ public class LendItemFunctions {
 			case 1:
 				return "--------------------------------------------------------------------";
 			case 2:
-				return "------------------------------";
+				return "----------------------------";
 			default:
-				return "--------------------------------------------------------------------";
+				return "------------------------------------------------------------------";
 			}
 		 
 	 }
