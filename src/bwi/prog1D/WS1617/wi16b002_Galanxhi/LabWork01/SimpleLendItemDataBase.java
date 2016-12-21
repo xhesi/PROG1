@@ -90,19 +90,24 @@ public class SimpleLendItemDataBase {
 			 case 4:
 				 String[] sortOptions = {"lend date", "return date", "lender", "owner", "description"};
 				 for(int i =1; i<sortOptions.length;i++){
-					 TextIO.put(i%sortOptions.length+") by "+sortOptions[i-1]);
+					 TextIO.putln(i%sortOptions.length+") by "+sortOptions[i-1]);
 				 }
 				 
-				 int chosenOption = TextIO.getInt();
+				 int chosenOption = TextIO.getlnInt();
 				 
 				 if(chosenOption > 4 && chosenOption < 0){
-					 TextIO.put("invalid choice");
-					 break;
+					 TextIO.putln("invalid choice!");
+					 continue;
 				 }
+				 else
+				 {
+					 TextIO.put("valid choice");
+					 LendItemArrayListFunctions.sort(list, chosenOption);
+					 
+				 }
+				 //
 				 
-				 LendItemArrayListFunctions.sort(list, chosenOption);
-				 
-				 LendItemArrayListFunctions.list(list, 1);
+				 //LendItemArrayListFunctions.list(list, 1);
 				 
 				 break;
 			 case 5:

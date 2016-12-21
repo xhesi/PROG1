@@ -84,13 +84,26 @@ public class LendItemArrayListFunctions {
 	
 	public static void sort(LendItemArrayList list, int order)
 	{
-		Arrays.sort(list.lendItems, new Comparator<LendItem>(){
+		LendItemArrayList newArrayList = new LendItemArrayList();
+		for (int i=0;i<list.next;i++)
+		{
+			add(newArrayList,list.lendItems[i]);
+		}
+		Arrays.sort(newArrayList.lendItems, new Comparator<LendItem>(){
 
 			@Override
 			public int compare(LendItem i1, LendItem i2) {
+				if (i1 == null || i2 == null )
+					return LendItemFunctions.compare(i1, i2, order)*-1;
 				return LendItemFunctions.compare(i1, i2, order);
 			}
 		});
+
+		
+		for (int i=0;i<list.next;i++)
+		{
+			list.lendItems[i]=newArrayList.lendItems[i];
+		}
 	}
 	
 	public static LendItemArrayList filterByDescription(LendItemArrayList list,String desc)
